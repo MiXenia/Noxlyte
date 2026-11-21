@@ -77,7 +77,7 @@
   "tooltip.noxlyte.frailily_lore.3": "From Noxlyte, with love.",
   "block.noxlyte.potted_frailily": "Imagination Manifest, Preserved and Potted",
 
-  "creativetab.scintilla_tab":      "Scintilla",
+  "creativetab.noxlyte_tab":      "Noxlyte",
 
   "tooltip.noxlyte.t0nutrition": "About as filling as a cookie... somehow.",
   "tooltip.noxlyte.t1nutrition": "About as filling as an apple... somehow.",
@@ -177,21 +177,21 @@
 
   "tetra.module.sword/needle_blade.item_name": "Needle§d§r",
   "tetra.module.sword/needle_blade.name": "Needle§d§r",
-  "tetra.module.sword/needle_blade.description": "A replica of a §fGrand Relic§r from the semifictional §dWeave of Noxlyte§r.\n \nHas bizarre properties as a result of its semifictional nature.",
+  "tetra.module.sword/needle_blade.description": "A replica of a §fGrand Relic§r from the semifictitious §dWeave of Noxlyte§r.\n \nHas bizarre properties as a result of its semifictitious nature.",
   "tetra.module.sword/needle_blade.material_name": "§d %s Needle§r",
   "tetra.module.sword/needle_blade.prefix": "§d %s",
 
   "tetra/schematic/sword/needle_blade.name": "§dLovestitch Blade§r",
-  "tetra/schematic/sword/needle_blade.description": "That flower...\n \nReplace the current sword blade with a facsimile of Lovestitch using semifictional smithing techniques.\n \nMaterial §fFlexibility§r increases §fDamage§r... somehow.",
+  "tetra/schematic/sword/needle_blade.description": "That flower...\n \nReplace the current sword blade with a facsimile of Lovestitch using semifictitious smithing techniques.\n \nMaterial §fFlexibility§r increases §fDamage§r... somehow.",
   "tetra/schematic/sword/needle_blade.slot1": "Needle material",
   "tetra.unlock.tetra.sword/needle_blade.name": "flower from a land of semifiction in order to",
 
   "tetra.module.sword/threaded_hilt.name": "Threaded Hilt",
-  "tetra.module.sword/threaded_hilt.description": "A replica of the unique hilt of a §fGrand Relic§r from the semifictional §dWeave of Noxlyte§r.",
+  "tetra.module.sword/threaded_hilt.description": "A replica of the unique hilt of a §fGrand Relic§r from the semifictitious §dWeave of Noxlyte§r.",
   "tetra.module.sword/threaded_hilt.material_name": "§d %s Threaded Hilt§r",
 
   "tetra/schematic/sword/threaded_hilt.name": "§dThreaded Hilt§r",
-  "tetra/schematic/sword/threaded_hilt.description": "That flower...\n \nReplace the current hilt with a handle befitting Lovestitch using semifictional smithing techniques.",
+  "tetra/schematic/sword/threaded_hilt.description": "That flower...\n \nReplace the current hilt with a handle befitting Lovestitch using semifictitious smithing techniques.",
   "tetra/schematic/sword/threaded_hilt.slot1": "Hilt material",
   "tetra.unlock.tetra.sword/threaded_hilt.name": "flower from a land of semifiction in order to"
 }
