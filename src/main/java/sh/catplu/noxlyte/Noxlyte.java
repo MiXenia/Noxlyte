@@ -11,6 +11,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import sh.catplu.noxlyte.block.ModBlocks;
+import sh.catplu.noxlyte.component.ModComponents;
 import sh.catplu.noxlyte.item.ModCreativeModeTabs;
 import sh.catplu.noxlyte.item.ModItems;
 
@@ -24,9 +25,9 @@ public class Noxlyte {
         ModItems.register(modEventBus);
         LOGGER.info("Heartstring Tied!");
         ModBlocks.register(modEventBus);
-        LOGGER.info("Fate Established!");
         ModCreativeModeTabs.register(modEventBus);
         LOGGER.info("Sending Gifts to 'Minecraft NeoForge'...");
+        ModComponents.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
     }
 
