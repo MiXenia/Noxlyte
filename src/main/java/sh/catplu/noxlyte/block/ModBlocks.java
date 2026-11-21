@@ -49,11 +49,11 @@ public class ModBlocks {
             @Override
             public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
                 if (loreID != null) {
-                    tooltip.add(Component.translatable("tooltip.scintilla."+loreID+".1")
+                    tooltip.add(Component.translatable("tooltip.noxlyte."+loreID+".1")
                     .withStyle(ChatFormatting.DARK_GRAY,ChatFormatting.ITALIC));
-                    tooltip.add(Component.translatable("tooltip.scintilla."+loreID+".2")
+                    tooltip.add(Component.translatable("tooltip.noxlyte."+loreID+".2")
                     .withStyle(ChatFormatting.DARK_GRAY,ChatFormatting.ITALIC));
-                    tooltip.add(Component.translatable("tooltip.scintilla."+loreID+".3")
+                    tooltip.add(Component.translatable("tooltip.noxlyte."+loreID+".3")
                     .withStyle(ChatFormatting.GRAY,ChatFormatting.ITALIC));
                 }
                 super.appendHoverText(stack,context,tooltip,flag);
