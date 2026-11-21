@@ -42,11 +42,12 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="XNya & _kpx"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+Some gifts from the semifictitious realm of Noxlyte,
+filled to the brim with love!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
