@@ -1,15 +1,15 @@
 {
-  "parent": "scintilla:cap_up_1",
+  "parent": "noxlyte:cap_up_1",
   "display": {
     "icon": {
-      "item": "scintilla:scintilla",
+      "item": "noxlyte:scintilla",
       "nbt": "{display:{color:15695267,dl:\"diamond\",dr:\"amethyst\",bs:\"star\",bm:\"emerald\"}}"
     },
     "title": {
-      "translate": "scintilla.advancements.uncommon.title"
+      "translate": "noxlyte.advancements.uncommon.title"
     },
     "description": {
-      "translate": "scintilla.advancements.uncommon.description"
+      "translate": "noxlyte.advancements.uncommon.description"
     },
     "frame": "goal",
     "hidden": true
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{md:17}"
           }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{hv:4}"
           }
@@ -47,7 +47,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{sv:1.2}"
           }

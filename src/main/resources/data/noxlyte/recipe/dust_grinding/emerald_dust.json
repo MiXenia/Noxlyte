@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:emerald"
   },
-  "result": "scintilla:emerald_dust",
+  "result": "noxlyte:emerald_dust",
   "count": 1
 }

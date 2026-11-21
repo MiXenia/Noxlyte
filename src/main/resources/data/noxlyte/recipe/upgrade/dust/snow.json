@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "group": "scintilla_upgrade_dust_right",
   "category": "misc",
   "pattern": [
@@ -12,11 +12,11 @@
       "item": "minecraft:snowball"
     },
     "X": {
-      "item": "scintilla:scintilla"
+      "item": "noxlyte:scintilla"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "sv": 0.4,
       "display": {

@@ -1,15 +1,15 @@
 {
-  "parent": "scintilla:craft_first_scintilla",
+  "parent": "noxlyte:craft_first_scintilla",
   "display": {
     "icon": {
-      "item": "scintilla:scintilla",
+      "item": "noxlyte:scintilla",
       "nbt": "{display:{color:15695267,dl:\"redstone\",dr:\"glowstone\",bs:\"dusty\",bm:\"glass\"}}"
     },
     "title": {
-      "translate": "scintilla.advancements.glamour.title"
+      "translate": "noxlyte.advancements.glamour.title"
     },
     "description": {
-      "translate": "scintilla.advancements.glamour.description"
+      "translate": "noxlyte.advancements.glamour.description"
     },
     "frame": "goal"
   },
@@ -20,7 +20,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{display:{dl:\"redstone\"}}"
           }
@@ -33,7 +33,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{display:{dr:\"redstone\"}}"
           }
@@ -46,7 +46,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{display:{dl:\"glowstone\"}}"
           }
@@ -59,7 +59,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{display:{dr:\"glowstone\"}}"
           }
@@ -72,7 +72,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{display:{dl:\"gunpowder\"}}"
           }
@@ -85,7 +85,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{display:{dr:\"gunpowder\"}}"
           }

@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "group": "scintilla_glamour_bottle",
   "category": "misc",
   "pattern": [
@@ -9,17 +9,17 @@
   ],
   "key": {
     "O": {
-      "tag": "forge:dyes"
+      "tag": "c:dyes"
     },
     "U": {
-      "item": "scintilla:holy_emerald_bottle"
+      "item": "noxlyte:holy_emerald_bottle"
     },
     "X": {
-      "item": "scintilla:scintilla"
+      "item": "noxlyte:scintilla"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "display": {
         "bs": "holy",

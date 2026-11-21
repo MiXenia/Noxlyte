@@ -1,14 +1,14 @@
 {
-  "parent": "scintilla:cap_up_4",
+  "parent": "noxlyte:cap_up_4",
   "display": {
     "icon": {
-      "item": "scintilla:end_dust"
+      "item": "noxlyte:end_dust"
     },
     "title": {
-      "translate": "scintilla.advancements.cap_up_5.title"
+      "translate": "noxlyte.advancements.cap_up_5.title"
     },
     "description": {
-      "translate": "scintilla.advancements.cap_up_5.description"
+      "translate": "noxlyte.advancements.cap_up_5.description"
     }
   },
   "criteria": {
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{md:257}"
           }

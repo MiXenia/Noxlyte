@@ -12,10 +12,10 @@
       "tag": "minecraft:planks"
     },
     "G": {
-      "item": "scintilla:eye_dust"
+      "item": "noxlyte:eye_dust"
     }
   },
   "result": {
-    "item": "scintilla:vanilla_eye_bottle"
+    "item": "noxlyte:vanilla_eye_bottle"
   }
 }

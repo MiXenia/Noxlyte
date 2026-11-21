@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:ender_pearl"
   },
-  "result": "scintilla:pearl_dust",
+  "result": "noxlyte:pearl_dust",
   "count": 1
 }

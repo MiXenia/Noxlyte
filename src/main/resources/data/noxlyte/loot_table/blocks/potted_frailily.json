@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "scintilla:frailily"
+          "name": "noxlyte:frailily"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "scintilla:blocks/potted_frailily"
+  "random_sequence": "noxlyte:blocks/potted_frailily"
 }

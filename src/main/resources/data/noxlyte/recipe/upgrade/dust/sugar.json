@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "group": "scintilla_upgrade_dust_left",
   "category": "misc",
   "pattern": [
@@ -12,11 +12,11 @@
       "item": "minecraft:sugar"
     },
     "X": {
-      "item": "scintilla:scintilla"
+      "item": "noxlyte:scintilla"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "hv": 2,
       "display": {

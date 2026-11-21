@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:blaze_rod"
   },
-  "result": "scintilla:blaze_dust",
+  "result": "noxlyte:blaze_dust",
   "count": 1
 }

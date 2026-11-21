@@ -1,14 +1,14 @@
 {
-  "parent": "scintilla:cap_up_2",
+  "parent": "noxlyte:cap_up_2",
   "display": {
     "icon": {
-      "item": "scintilla:eye_dust"
+      "item": "noxlyte:eye_dust"
     },
     "title": {
-      "translate": "scintilla.advancements.cap_up_3.title"
+      "translate": "noxlyte.advancements.cap_up_3.title"
     },
     "description": {
-      "translate": "scintilla.advancements.cap_up_3.description"
+      "translate": "noxlyte.advancements.cap_up_3.description"
     }
   },
   "criteria": {
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{md:65}"
           }
@@ -28,23 +28,23 @@
   },
   "rewards": {
     "recipes": [
-      "scintilla:crystal_bottles/diamond_bottle",
-      "scintilla:crystal_bottles/dusty_bottle",
-      "scintilla:crystal_bottles/heart_bottle",
-      "scintilla:crystal_bottles/holy_bottle",
-      "scintilla:crystal_bottles/jar_bottle",
-      "scintilla:crystal_bottles/star_bottle",
-      "scintilla:crystal_bottles/vanilla_bottle",
-      "scintilla:crystal_bottles/vial_bottle",
+      "noxlyte:crystal_bottles/diamond_bottle",
+      "noxlyte:crystal_bottles/dusty_bottle",
+      "noxlyte:crystal_bottles/heart_bottle",
+      "noxlyte:crystal_bottles/holy_bottle",
+      "noxlyte:crystal_bottles/jar_bottle",
+      "noxlyte:crystal_bottles/star_bottle",
+      "noxlyte:crystal_bottles/vanilla_bottle",
+      "noxlyte:crystal_bottles/vial_bottle",
 
-      "scintilla:upgrade/bottle/crystal/diamond",
-      "scintilla:upgrade/bottle/crystal/dusty",
-      "scintilla:upgrade/bottle/crystal/heart",
-      "scintilla:upgrade/bottle/crystal/holy",
-      "scintilla:upgrade/bottle/crystal/jar",
-      "scintilla:upgrade/bottle/crystal/star",
-      "scintilla:upgrade/bottle/crystal/vanilla",
-      "scintilla:upgrade/bottle/crystal/vial"
+      "noxlyte:upgrade/bottle/crystal/diamond",
+      "noxlyte:upgrade/bottle/crystal/dusty",
+      "noxlyte:upgrade/bottle/crystal/heart",
+      "noxlyte:upgrade/bottle/crystal/holy",
+      "noxlyte:upgrade/bottle/crystal/jar",
+      "noxlyte:upgrade/bottle/crystal/star",
+      "noxlyte:upgrade/bottle/crystal/vanilla",
+      "noxlyte:upgrade/bottle/crystal/vial"
     ]
   }
 }

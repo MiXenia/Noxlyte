@@ -12,10 +12,10 @@
       "tag": "minecraft:planks"
     },
     "G": {
-      "item": "scintilla:end_dust"
+      "item": "noxlyte:end_dust"
     }
   },
   "result": {
-    "item": "scintilla:dusty_end_bottle"
+    "item": "noxlyte:dusty_end_bottle"
   }
 }

@@ -1,14 +1,14 @@
 {
-  "parent": "scintilla:cap_up_1",
+  "parent": "noxlyte:cap_up_1",
   "display": {
     "icon": {
-      "item": "scintilla:pearl_dust"
+      "item": "noxlyte:pearl_dust"
     },
     "title": {
-      "translate": "scintilla.advancements.cap_up_2.title"
+      "translate": "noxlyte.advancements.cap_up_2.title"
     },
     "description": {
-      "translate": "scintilla.advancements.cap_up_2.description"
+      "translate": "noxlyte.advancements.cap_up_2.description"
     }
   },
   "criteria": {
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{md:33}"
           }
@@ -28,23 +28,23 @@
   },
   "rewards": {
     "recipes": [
-      "scintilla:eye_bottles/diamond_bottle",
-      "scintilla:eye_bottles/dusty_bottle",
-      "scintilla:eye_bottles/heart_bottle",
-      "scintilla:eye_bottles/holy_bottle",
-      "scintilla:eye_bottles/jar_bottle",
-      "scintilla:eye_bottles/star_bottle",
-      "scintilla:eye_bottles/vanilla_bottle",
-      "scintilla:eye_bottles/vial_bottle",
+      "noxlyte:eye_bottles/diamond_bottle",
+      "noxlyte:eye_bottles/dusty_bottle",
+      "noxlyte:eye_bottles/heart_bottle",
+      "noxlyte:eye_bottles/holy_bottle",
+      "noxlyte:eye_bottles/jar_bottle",
+      "noxlyte:eye_bottles/star_bottle",
+      "noxlyte:eye_bottles/vanilla_bottle",
+      "noxlyte:eye_bottles/vial_bottle",
 
-      "scintilla:upgrade/bottle/eye/diamond",
-      "scintilla:upgrade/bottle/eye/dusty",
-      "scintilla:upgrade/bottle/eye/heart",
-      "scintilla:upgrade/bottle/eye/holy",
-      "scintilla:upgrade/bottle/eye/jar",
-      "scintilla:upgrade/bottle/eye/star",
-      "scintilla:upgrade/bottle/eye/vanilla",
-      "scintilla:upgrade/bottle/eye/vial"
+      "noxlyte:upgrade/bottle/eye/diamond",
+      "noxlyte:upgrade/bottle/eye/dusty",
+      "noxlyte:upgrade/bottle/eye/heart",
+      "noxlyte:upgrade/bottle/eye/holy",
+      "noxlyte:upgrade/bottle/eye/jar",
+      "noxlyte:upgrade/bottle/eye/star",
+      "noxlyte:upgrade/bottle/eye/vanilla",
+      "noxlyte:upgrade/bottle/eye/vial"
     ]
   }
 }

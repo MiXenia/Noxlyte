@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:nether_star"
   },
-  "result": "scintilla:star_dust",
+  "result": "noxlyte:star_dust",
   "count": 1
 }

@@ -12,10 +12,10 @@
       "tag": "minecraft:planks"
     },
     "G": {
-      "item": "scintilla:crystal_dust"
+      "item": "noxlyte:crystal_dust"
     }
   },
   "result": {
-    "item": "scintilla:star_crystal_bottle"
+    "item": "noxlyte:star_crystal_bottle"
   }
 }

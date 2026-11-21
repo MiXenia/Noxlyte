@@ -1,14 +1,14 @@
 {
-  "parent": "scintilla:craft_first_scintilla",
+  "parent": "noxlyte:craft_first_scintilla",
   "display": {
     "icon": {
-      "item": "scintilla:diamond_dust"
+      "item": "noxlyte:diamond_dust"
     },
     "title": {
-      "translate": "scintilla.advancements.nut_up_1.title"
+      "translate": "noxlyte.advancements.nut_up_1.title"
     },
     "description": {
-      "translate": "scintilla.advancements.nut_up_1.description"
+      "translate": "noxlyte.advancements.nut_up_1.description"
     }
   },
   "criteria": {
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{hv:4}"
           }
@@ -28,7 +28,7 @@
   },
   "rewards": {
     "recipes": [
-      "scintilla:upgrade/dust/quartz"
+      "noxlyte:upgrade/dust/quartz"
     ]
   }
 }

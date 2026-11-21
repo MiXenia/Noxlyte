@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "group": "scintilla_glamour_left_dust",
   "category": "misc",
   "pattern": [
@@ -8,17 +8,17 @@
   ],
   "key": {
     "O": {
-      "tag": "forge:dyes"
+      "tag": "c:dyes"
     },
     "U": {
-      "item": "scintilla:echo_dust"
+      "item": "noxlyte:echo_dust"
     },
     "X": {
-      "item": "scintilla:scintilla"
+      "item": "noxlyte:scintilla"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "display": {
         "dl": "echo"

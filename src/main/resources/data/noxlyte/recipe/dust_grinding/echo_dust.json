@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:echo_shard"
   },
-  "result": "scintilla:echo_dust",
+  "result": "noxlyte:echo_dust",
   "count": 1
 }

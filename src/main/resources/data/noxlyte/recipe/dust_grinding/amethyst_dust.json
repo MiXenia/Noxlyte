@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:amethyst_shard"
   },
-  "result": "scintilla:amethyst_dust",
+  "result": "noxlyte:amethyst_dust",
   "count": 1
 }

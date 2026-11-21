@@ -1,14 +1,14 @@
 {
-  "parent": "scintilla:sat_up_1",
+  "parent": "noxlyte:sat_up_1",
   "display": {
     "icon": {
-      "item": "scintilla:blaze_dust"
+      "item": "noxlyte:blaze_dust"
     },
     "title": {
-      "translate": "scintilla.advancements.sat_up_2.title"
+      "translate": "noxlyte.advancements.sat_up_2.title"
     },
     "description": {
-      "translate": "scintilla.advancements.sat_up_2.description"
+      "translate": "noxlyte.advancements.sat_up_2.description"
     }
   },
   "criteria": {
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{sv:6.0}"
           }
@@ -28,7 +28,7 @@
   },
   "rewards": {
     "recipes": [
-      "scintilla:upgrade/dust/hots"
+      "noxlyte:upgrade/dust/hots"
     ]
   }
 }

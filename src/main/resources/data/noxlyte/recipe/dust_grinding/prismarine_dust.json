@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:prismarine_shard"
   },
-  "result": "scintilla:prismarine_dust",
+  "result": "noxlyte:prismarine_dust",
   "count": 1
 }

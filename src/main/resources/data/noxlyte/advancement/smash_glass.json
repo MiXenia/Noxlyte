@@ -1,14 +1,14 @@
 {
-  "parent": "scintilla:root",
+  "parent": "noxlyte:root",
   "display": {
     "icon": {
       "item": "minecraft:brick"
     },
     "title": {
-      "translate": "scintilla.advancements.smash_glass.title"
+      "translate": "noxlyte.advancements.smash_glass.title"
     },
     "description": {
-      "translate": "scintilla.advancements.smash_glass.description"
+      "translate": "noxlyte.advancements.smash_glass.description"
     }
   },
   "criteria": {
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "scintilla:shatterglass"
+              "noxlyte:shatterglass"
             ]
           }
         ]
@@ -27,7 +27,7 @@
   },
   "rewards": {
     "recipes": [
-      "scintilla:scintilla"
+      "noxlyte:scintilla"
     ]
   }
 }

@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:diamond"
   },
-  "result": "scintilla:diamond_dust",
+  "result": "noxlyte:diamond_dust",
   "count": 1
 }

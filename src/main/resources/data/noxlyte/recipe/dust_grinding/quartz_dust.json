@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:quartz_block"
   },
-  "result": "scintilla:quartz_dust",
+  "result": "noxlyte:quartz_dust",
   "count": 1
 }

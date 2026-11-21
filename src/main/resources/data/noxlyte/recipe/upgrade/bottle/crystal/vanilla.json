@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "group": "scintilla_upgrade_bottle",
   "category": "misc",
   "pattern": [
@@ -8,14 +8,14 @@
   ],
   "key": {
     "U": {
-      "item": "scintilla:vanilla_crystal_bottle"
+      "item": "noxlyte:vanilla_crystal_bottle"
     },
     "X": {
-      "item": "scintilla:scintilla"
+      "item": "noxlyte:scintilla"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "md": 129,
       "display": {

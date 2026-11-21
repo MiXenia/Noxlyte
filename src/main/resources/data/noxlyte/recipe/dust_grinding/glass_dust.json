@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:glass"
   },
-  "result": "scintilla:glass_dust",
+  "result": "noxlyte:glass_dust",
   "count": 1
 }

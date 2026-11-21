@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "scintilla:block/potted_frailily"
+      "model": "noxlyte:block/potted_frailily"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "scintilla:item/d_crystal"
+    "layer0": "noxlyte:item/d_crystal"
   }
 }

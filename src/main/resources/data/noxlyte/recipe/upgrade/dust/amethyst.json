@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "group": "scintilla_upgrade_dust_right",
   "category": "misc",
   "pattern": [
@@ -9,14 +9,14 @@
   ],
   "key": {
     "U": {
-      "item": "scintilla:amethyst_dust"
+      "item": "noxlyte:amethyst_dust"
     },
     "X": {
-      "item": "scintilla:scintilla"
+      "item": "noxlyte:scintilla"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "sv": 1.2,
       "display": {

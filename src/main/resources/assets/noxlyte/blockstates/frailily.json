@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "scintilla:block/frailily"
+      "model": "noxlyte:block/frailily"
     }
   }
 }

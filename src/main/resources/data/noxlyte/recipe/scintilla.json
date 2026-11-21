@@ -1,5 +1,5 @@
 {
-  "type": "scintilla:color",
+  "type": "noxlyte:color",
   "category": "misc",
   "pattern": [
     "UUU",
@@ -17,11 +17,11 @@
       "item": "minecraft:sugar"
     },
     "X": {
-      "item": "scintilla:shatterglass"
+      "item": "noxlyte:shatterglass"
     }
   },
   "result": {
-    "item": "scintilla:scintilla",
+    "item": "noxlyte:scintilla",
     "nbt": {
       "md": 9,
       "hv": 2,

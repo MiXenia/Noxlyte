@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "scintilla:frailily"
+          "name": "noxlyte:frailily"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "scintilla:blocks/frailily"
+  "random_sequence": "noxlyte:blocks/frailily"
 }

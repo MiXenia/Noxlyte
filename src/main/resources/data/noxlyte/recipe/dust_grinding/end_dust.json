@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:end_rod"
   },
-  "result": "scintilla:end_dust",
+  "result": "noxlyte:end_dust",
   "count": 1
 }

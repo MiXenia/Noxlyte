@@ -1,15 +1,15 @@
 {
-  "parent": "scintilla:cap_up_5",
+  "parent": "noxlyte:cap_up_5",
   "display": {
     "icon": {
-      "item": "scintilla:scintilla",
+      "item": "noxlyte:scintilla",
       "nbt": "{display:{color:15695267,dl:\"star\",dr:\"prismarine\",bs:\"heart\",bm:\"end\"}}"
     },
     "title": {
-      "translate": "scintilla.advancements.epic.title"
+      "translate": "noxlyte.advancements.epic.title"
     },
     "description": {
-      "translate": "scintilla.advancements.epic.description"
+      "translate": "noxlyte.advancements.epic.description"
     },
     "frame": "challenge",
     "hidden": true
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{md:257}"
           }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{hv:10}"
           }
@@ -47,7 +47,7 @@
         "items": [
           {
             "items": [
-              "scintilla:scintilla"
+              "noxlyte:scintilla"
             ],
             "nbt": "{sv:20.0}"
           }
@@ -62,7 +62,7 @@
   ],
   "rewards": {
     "loot": [
-      "scintilla:victory"
+      "noxlyte:victory"
     ]
   }
 }

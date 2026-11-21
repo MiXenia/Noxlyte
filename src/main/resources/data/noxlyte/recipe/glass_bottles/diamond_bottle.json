@@ -12,10 +12,10 @@
       "tag": "minecraft:planks"
     },
     "G": {
-      "item": "scintilla:glass_dust"
+      "item": "noxlyte:glass_dust"
     }
   },
   "result": {
-    "item": "scintilla:diamond_glass_bottle"
+    "item": "noxlyte:diamond_glass_bottle"
   }
 }
