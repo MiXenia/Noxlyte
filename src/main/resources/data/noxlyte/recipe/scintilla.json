@@ -1,0 +1,38 @@
+{
+  "type": "scintilla:color",
+  "category": "misc",
+  "pattern": [
+    "UUU",
+    "OXO",
+    "^^^"
+  ],
+  "key": {
+    "U": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "O": {
+      "item": "minecraft:snowball"
+    },
+    "^": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "scintilla:shatterglass"
+    }
+  },
+  "result": {
+    "item": "scintilla:scintilla",
+    "nbt": {
+      "md": 9,
+      "hv": 2,
+      "sv": 0.4,
+      "display": {
+        "bs": "vanilla",
+        "bm": "glass",
+        "dl": "sugar",
+        "dr": "snow"
+      }
+    }
+  },
+  "color_slot": 4
+}

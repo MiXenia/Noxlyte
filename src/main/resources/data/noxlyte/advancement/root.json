@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "scintilla:scintilla",
+      "nbt": "{display:{color:15695267,dl:\"snow\",dr:\"diamond\",bs:\"heart\",bm:\"end\"}}"
+    },
+    "title": {
+      "translate": "scintilla.advancements.root.title"
+    },
+    "description": {
+      "translate": "scintilla.advancements.root.description"
+    },
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/pink_concrete_powder.png"
+  },
+  "criteria": {
+    "starting_scintilla": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

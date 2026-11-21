@@ -1,0 +1,197 @@
+{
+  "item.scintilla.shatterglass":    "Shatterglass",
+  "item.scintilla.scintilla":       "Scintilla",
+
+  "item.scintilla.amethyst_dust":   "Crushed Amethyst",
+  "item.scintilla.blaze_dust":      "Blaze Ash",
+  "item.scintilla.crystal_dust":    "End Crystal Debris",
+  "item.scintilla.diamond_dust":    "Diamond Dust",
+  "item.scintilla.echo_dust":       "Echoic Earth",
+  "item.scintilla.emerald_dust":    "Emerald Glitter",
+  "item.scintilla.end_dust":        "End Matter",
+  "item.scintilla.eye_dust":        "Rheum of Ender",
+  "item.scintilla.glass_dust":      "Glass Mist",
+  "item.scintilla.hots_dust":       "Salt of the Sea",
+  "item.scintilla.pearl_dust":      "Pearl Sand",
+  "item.scintilla.prismarine_dust": "Prismarine Powder",
+  "item.scintilla.quartz_dust":     "Quartz Silica Dust",
+  "item.scintilla.star_dust":       "Nether Stardust",
+  "item.scintilla.glowstone_dust":  "Glowstone Dust",
+  "item.scintilla.gunpowder_dust":  "Gunpowder",
+  "item.scintilla.redstone_dust":   "Redstone",
+  "item.scintilla.snow_dust":       "Snow",
+  "item.scintilla.sugar_dust":      "Sugar",
+
+  "item.scintilla.diamond_glass_bottle" :   "Glass Diamond Bottle",
+  "item.scintilla.diamond_emerald_bottle" : "Emerald Diamond Bottle",
+  "item.scintilla.diamond_pearl_bottle" :   "Pearlescent Diamond Bottle",
+  "item.scintilla.diamond_eye_bottle" :     "Ender Diamond Bottle",
+  "item.scintilla.diamond_crystal_bottle" : "Crystalline Diamond Bottle",
+  "item.scintilla.diamond_end_bottle" :     "Final Diamond Bottle",
+  "item.scintilla.dusty_glass_bottle" :     "Dusty Glass Bottle",
+  "item.scintilla.dusty_emerald_bottle" :   "Dusty Emerald Bottle",
+  "item.scintilla.dusty_pearl_bottle" :     "Dusty Pearlescent Bottle",
+  "item.scintilla.dusty_eye_bottle" :       "Dusty Eye Bottle",
+  "item.scintilla.dusty_crystal_bottle" :   "Dusty Crystalline Bottle",
+  "item.scintilla.dusty_end_bottle" :       "Final Dusty Bottle",
+  "item.scintilla.heart_glass_bottle" :     "Glass Heart",
+  "item.scintilla.heart_emerald_bottle" :   "Emerald Heart",
+  "item.scintilla.heart_pearl_bottle" :     "Pearlescent Heart",
+  "item.scintilla.heart_eye_bottle" :       "Heart of Ender",
+  "item.scintilla.heart_crystal_bottle" :   "Crystalline Heart",
+  "item.scintilla.heart_end_bottle" :       "Final Heart",
+  "item.scintilla.holy_glass_bottle" :      "Glass Vase",
+  "item.scintilla.holy_emerald_bottle" :    "Emerald Vase",
+  "item.scintilla.holy_pearl_bottle" :      "Pearlescent Vase",
+  "item.scintilla.holy_eye_bottle" :        "Ender Vase",
+  "item.scintilla.holy_crystal_bottle" :    "Crystalline Vase",
+  "item.scintilla.holy_end_bottle" :        "Final Vase",
+  "item.scintilla.jar_glass_bottle" :       "Glass Jar",
+  "item.scintilla.jar_emerald_bottle" :     "Emerald Jar",
+  "item.scintilla.jar_pearl_bottle" :       "Pearlescent Jar",
+  "item.scintilla.jar_eye_bottle" :         "Ender Jar",
+  "item.scintilla.jar_crystal_bottle" :     "Crystalline Jar",
+  "item.scintilla.jar_end_bottle" :         "Final Jar",
+  "item.scintilla.star_glass_bottle" :      "Glass Star",
+  "item.scintilla.star_emerald_bottle" :    "Emerald Star",
+  "item.scintilla.star_pearl_bottle" :      "Pearlescent Star",
+  "item.scintilla.star_eye_bottle" :        "Ender Star",
+  "item.scintilla.star_crystal_bottle" :    "Crystalline Star",
+  "item.scintilla.star_end_bottle" :        "The Final Star",
+  "item.scintilla.vanilla_glass_bottle" :   "Glass Bottle",
+  "item.scintilla.vanilla_emerald_bottle" : "Emerald Bottle",
+  "item.scintilla.vanilla_pearl_bottle" :   "Pearlescent Bottle",
+  "item.scintilla.vanilla_eye_bottle" :     "Ender Bottle",
+  "item.scintilla.vanilla_crystal_bottle" : "Crystalline Bottle",
+  "item.scintilla.vanilla_end_bottle" :     "Final Bottle",
+  "item.scintilla.vial_glass_bottle" :      "Glass Vial",
+  "item.scintilla.vial_emerald_bottle" :    "Emerald Vial",
+  "item.scintilla.vial_pearl_bottle" :      "Pearlescent Bottle",
+  "item.scintilla.vial_eye_bottle" :        "Ender Vial",
+  "item.scintilla.vial_crystal_bottle" :    "Crystalline Vial",
+  "item.scintilla.vial_end_bottle" :        "Final Vial",
+
+  "block.scintilla.frailily": "Preserved Frailily",
+  "tooltip.scintilla.frailily_lore.1": "Come visit soon!",
+  "tooltip.scintilla.frailily_lore.2": "You always have a home here.",
+  "tooltip.scintilla.frailily_lore.3": "From Noxlyte, with love.",
+  "block.scintilla.potted_frailily": "Imagination Manifest, Preserved and Potted",
+
+  "creativetab.scintilla_tab":      "Scintilla",
+
+  "tooltip.scintilla.t0nutrition": "About as filling as a cookie... somehow.",
+  "tooltip.scintilla.t1nutrition": "About as filling as an apple... somehow.",
+  "tooltip.scintilla.t2nutrition": "About as filling as cooked chicken... somehow.",
+  "tooltip.scintilla.t3nutrition": "About as filling as a pumpkin pie... somehow.",
+  "tooltip.scintilla.t4nutrition": "About as filling as rabbit stew... somehow.",
+
+  "tooltip.scintilla.t0saturation": "About as healthy as a cake slice... somehow.",
+  "tooltip.scintilla.t1saturation": "About as healthy as a melon slice... somehow.",
+  "tooltip.scintilla.t2saturation": "About as healthy as bread... somehow.",
+  "tooltip.scintilla.t3saturation": "About as healthy as cooked steak... somehow.",
+  "tooltip.scintilla.t4saturation": "More healthy than a golden carrot... somehow.",
+
+  "tooltip.scintilla.t0durability": "Would make some good bottles for holding Scintilla.",
+  "tooltip.scintilla.t1durability": "Seems to have some very minor space warping abilities.",
+  "tooltip.scintilla.t2durability": "Seems to have some small space warping abilities.",
+  "tooltip.scintilla.t3durability": "Seems to have some decent space warping abilities.",
+  "tooltip.scintilla.t4durability": "Seems to have some powerful space warping abilities.",
+  "tooltip.scintilla.t5durability": "Seems to have some extremely powerful space warping abilities. It's... difficult to hold.",
+
+  "tooltip.scintilla.left_dust": "Left Dust: ",
+  "tooltip.scintilla.right_dust": "Right Dust: ",
+  "tooltip.scintilla.bottle": "Bottle: ",
+  "tooltip.scintilla.expandable": "+ Hold SHIFT for Stats",
+  "tooltip.scintilla.nutrition": "Hunger: ",
+  "tooltip.scintilla.saturation": "Saturation: ",
+  "tooltip.scintilla.max_durability": "Bottle Capacity: ",
+
+  "tooltip.scintilla.shatterglass_guide": "§8To obtain Shatterglass, smash any placed §dStained Glass Block §8with a §cBrick§8!§r",
+
+  "scintilla.advancements.root.title": "Path to Scintilla",
+  "scintilla.advancements.root.description": "A sweet treat from the §dWeave of Noxlyte§a, fit for plushkin of any kind!",
+
+  "scintilla.advancements.smash_glass.title": "Rimeless Reason",
+  "scintilla.advancements.smash_glass.description": "Smash any placed stained glass block with a brick to obtain Shatterglass.",
+
+  "scintilla.advancements.secret_glass.title": "Hand over Faucet",
+  "scintilla.advancements.secret_glass.description": "Obtain Shatterglass without a brick.",
+
+  "scintilla.advancements.craft_first_scintilla.title": "First Time in Harlequin",
+  "scintilla.advancements.craft_first_scintilla.description": "Craft your first bottle of Scintilla.",
+
+  "scintilla.advancements.nut_up_1.title": "Patterns to Live In",
+  "scintilla.advancements.nut_up_1.description": "Upgrade the Hunger restoration of your Scintilla to level 2 using eight Diamond Dust.",
+
+  "scintilla.advancements.sat_up_1.title": "A Fustian Mystery",
+  "scintilla.advancements.sat_up_1.description": "Upgrade the Saturation restoration of your Scintilla to level 2 using eight Crushed Amethyst.",
+
+  "scintilla.advancements.cap_up_1.title": "Trading with Paper Leaves",
+  "scintilla.advancements.cap_up_1.description": "Upgrade the Capacity of your Scintilla bottle to level 2 using any Emerald Bottle, no dye needed.",
+
+  "scintilla.advancements.nut_up_2.title": "A Hero by Any Other Color",
+  "scintilla.advancements.nut_up_2.description": "Upgrade the Hunger restoration of your Scintilla to level 3 using eight Quartz Silica Dust.",
+
+  "scintilla.advancements.sat_up_2.title": "Harrowing Dawn Spellcasting",
+  "scintilla.advancements.sat_up_2.description": "Upgrade the Saturation restoration of your Scintilla to level 3 using eight Blaze Ash.",
+
+  "scintilla.advancements.cap_up_2.title": "One Map to Q'tenso, Please",
+  "scintilla.advancements.cap_up_2.description": "Upgrade the Capacity of your Scintilla bottle to level 3 using any Pearlescent Bottle, no dye needed.",
+
+  "scintilla.advancements.nut_up_3.title": "Silence in the Old Capital",
+  "scintilla.advancements.nut_up_3.description": "Upgrade the Hunger restoration of your Scintilla to level 4 using eight Echoic Earth.",
+
+  "scintilla.advancements.sat_up_3.title": "On Sands of Black and White",
+  "scintilla.advancements.sat_up_3.description": "Upgrade the Saturation restoration of your Scintilla to level 4 using eight Salt of the Sea.",
+
+  "scintilla.advancements.cap_up_3.title": "Between the 3rd and 4th Wall",
+  "scintilla.advancements.cap_up_3.description": "Upgrade the Capacity of your Scintilla bottle to level 4 using any Ender or Eye Bottle, no dye needed.",
+
+  "scintilla.advancements.nut_up_4.title": "Tacet Nox, Atrament Skies",
+  "scintilla.advancements.nut_up_4.description": "Upgrade the Hunger restoration of your Scintilla to max level using eight Nether Stardust.",
+
+  "scintilla.advancements.sat_up_4.title": "The Herringbone Special",
+  "scintilla.advancements.sat_up_4.description": "Upgrade the Saturation restoration of your Scintilla to max level using eight Prismarine Powder.",
+
+  "scintilla.advancements.cap_up_4.title": "A Rain that Never Ends",
+  "scintilla.advancements.cap_up_4.description": "Upgrade the Capacity of your Scintilla bottle to level 5 using any Crystalline Bottle, no dye needed.",
+
+  "scintilla.advancements.cap_up_5.title": "Via Ultima",
+  "scintilla.advancements.cap_up_5.description": "Upgrade the Capacity of your Scintilla bottle to max level using any Final Bottle, no dye needed.",
+
+  "scintilla.advancements.uncommon.title": "Fit for a Claw of Scintilla",
+  "scintilla.advancements.uncommon.description": "Upgrade your Scintilla beyond common levels.",
+
+  "scintilla.advancements.rare.title": "Dance on Shatterglass Dunes",
+  "scintilla.advancements.rare.description": "Upgrade your Scintilla until it nears perfection.",
+
+  "scintilla.advancements.epic.title": "Tomorrow, Tomorrow",
+  "scintilla.advancements.epic.description": "Fully Upgrade your Scintilla.",
+
+  "scintilla.advancements.glamour.title": "Not What It Seams",
+  "scintilla.advancements.glamour.description": "Using dye in your crafting table, you can change your Scintilla visually without changing its stats. Try using redstone, glowstone, or gunpowder as a cosmetic!",
+
+  "scintilla.advancements.depletion_challenge.title": "No Snow in Mezhr-Mezhr",
+  "scintilla.advancements.depletion_challenge.description": "Run out of Scintilla with a Final Bottle.",
+
+
+  "tetra.module.sword/needle_blade.item_name": "Needle§d§r",
+  "tetra.module.sword/needle_blade.name": "Needle§d§r",
+  "tetra.module.sword/needle_blade.description": "A replica of a §fGrand Relic§r from the semifictional §dWeave of Noxlyte§r.\n \nHas bizarre properties as a result of its semifictional nature.",
+  "tetra.module.sword/needle_blade.material_name": "§d %s Needle§r",
+  "tetra.module.sword/needle_blade.prefix": "§d %s",
+
+  "tetra/schematic/sword/needle_blade.name": "§dLovestitch Blade§r",
+  "tetra/schematic/sword/needle_blade.description": "That flower...\n \nReplace the current sword blade with a facsimile of Lovestitch using semifictional smithing techniques.\n \nMaterial §fFlexibility§r increases §fDamage§r... somehow.",
+  "tetra/schematic/sword/needle_blade.slot1": "Needle material",
+  "tetra.unlock.tetra.sword/needle_blade.name": "flower from a land of semifiction in order to",
+
+  "tetra.module.sword/threaded_hilt.name": "Threaded Hilt",
+  "tetra.module.sword/threaded_hilt.description": "A replica of the unique hilt of a §fGrand Relic§r from the semifictional §dWeave of Noxlyte§r.",
+  "tetra.module.sword/threaded_hilt.material_name": "§d %s Threaded Hilt§r",
+
+  "tetra/schematic/sword/threaded_hilt.name": "§dThreaded Hilt§r",
+  "tetra/schematic/sword/threaded_hilt.description": "That flower...\n \nReplace the current hilt with a handle befitting Lovestitch using semifictional smithing techniques.",
+  "tetra/schematic/sword/threaded_hilt.slot1": "Hilt material",
+  "tetra.unlock.tetra.sword/threaded_hilt.name": "flower from a land of semifiction in order to"
+}

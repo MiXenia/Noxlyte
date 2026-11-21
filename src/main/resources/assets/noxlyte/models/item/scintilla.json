@@ -1,0 +1,10 @@
+{
+  "parent": "item/generated",
+  "loader": "scintilla:scintilla_model",
+  "textures": {
+    "layer0": "scintilla:item/s_vanilla_shatterglass",
+    "layer1": "scintilla:item/l_vanilla_sugar",
+    "layer2": "scintilla:item/r_vanilla_snow",
+    "layer3": "scintilla:item/b_vanilla_glass"
+  }
+}
