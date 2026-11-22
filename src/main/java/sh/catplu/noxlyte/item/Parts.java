@@ -2,11 +2,11 @@ package sh.catplu.noxlyte.item;
 
 import java.util.List;
 
-public class Parts {
+public final class Parts {
     private Parts() {}
 
     public static final List<String> SHAPES = List.of(
-        //"bulb"
+        //"bulb",
         "diamond",
         //"duo",
         "dusty",
@@ -44,6 +44,7 @@ public class Parts {
         "pearl",
         "prismarine",
         "quartz",
+        "redstone",
         "snow",
         "star",
         "sugar"

@@ -36,7 +36,7 @@ public class ScintillaItem extends Item{
     public @Nullable FoodProperties getFoodProperties(ItemStack stack, @Nullable LivingEntity entity) {
         int nutrition = stack.getOrDefault(ModComponents.NUTRITION,DEFAULT_FOOD.nutrition());
         float saturation = stack.getOrDefault(ModComponents.SATURATION,DEFAULT_FOOD.saturation());
-        return new FoodProperties(nutrition, saturation, true, 1.1f, Optional.empty(), List.of());
+        return new FoodProperties(nutrition, saturation, true, DEFAULT_FOOD.eatSeconds(), Optional.empty(), List.of());
     }
 
     @Override 

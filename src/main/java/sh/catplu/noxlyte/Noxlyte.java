@@ -14,6 +14,7 @@ import sh.catplu.noxlyte.block.ModBlocks;
 import sh.catplu.noxlyte.component.ModComponents;
 import sh.catplu.noxlyte.item.ModCreativeModeTabs;
 import sh.catplu.noxlyte.item.ModItems;
+import sh.catplu.noxlyte.recipe.ModRecipes;
 
 @Mod(Noxlyte.MODID)
 public class Noxlyte {
@@ -28,6 +29,7 @@ public class Noxlyte {
         ModCreativeModeTabs.register(modEventBus);
         LOGGER.info("Sending Gifts to 'Minecraft NeoForge'...");
         ModComponents.register(modEventBus);
+        ModRecipes.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
     }
 
