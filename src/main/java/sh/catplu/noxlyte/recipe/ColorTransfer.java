@@ -40,6 +40,7 @@ public class ColorTransfer extends ShapedRecipe{
         return matchesUnmirrored(input) && !input.getItem(colorSlot).getComponentsPatch().isEmpty();
     }
 
+    // transmit everything //
     @Override 
     public ItemStack assemble(CraftingInput input, HolderLookup.Provider registries) {
         ItemStack donor  = input.getItem(colorSlot);
