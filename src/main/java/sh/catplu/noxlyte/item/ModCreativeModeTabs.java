@@ -1,14 +1,16 @@
 package sh.catplu.noxlyte.item;
 
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.DyedItemColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import sh.catplu.noxlyte.Noxlyte;
+import sh.catplu.noxlyte.component.ModComponents;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister
@@ -16,19 +18,18 @@ public class ModCreativeModeTabs {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> NOXLYTE_TAB = CREATIVE_MODE_TABS.register("noxlyte_tab",
             () -> CreativeModeTab.builder()
-                    // .icon(() -> scintilla("heart", "end", "snow", "diamond", 0xFFAADD, 257, 10, 20.0f))
-                    .icon(() -> ModItems.HEART_END_BOTTLE.toStack())
+                    .icon(() -> scintilla("heart", "end", "snow", "diamond", 0xFFAADD, 257, 10, 20.0f))
                     .title(Component.translatable("creativetab.noxlyte_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        // pOutput.accept(scintilla("vanilla", "glass", "sugar", "snow", 0x324BB0, 9, 2, 0.4f));
-                        // pOutput.accept(scintilla("dusty", "emerald", "diamond", "amethyst", 0xB04BD5, 17, 4, 1.2f));
-                        // pOutput.accept(scintilla("jar", "pearl", "quartz", "blaze", 0x973232, 33, 6, 6.0f));
-                        // pOutput.accept(scintilla("holy", "eye", "echo", "hots", 0x4B7D97, 65, 8, 12.8f));
-                        // pOutput.accept(scintilla("star", "crystal", "star", "prismarine", 0x7DCA19, 129, 10, 20.0f));
-                        // pOutput.accept(scintilla("heart", "end", "snow", "diamond", 0xFFAADD, 257, 10, 20.0f));
-                        // pOutput.accept(scintilla("dusty", "glass", "redstone", "glowstone", 0xFFFFFF, 257, 10, 20.0f));
-                        // pOutput.accept(scintilla("vial", "crystal", "crystal", "crystal", 0x954DBB, 257, 10, 20.0f));
-                        // pOutput.accept(scintilla("diamond", "end", "glass", "glass", 0xC4A2A8, 257, 10, 20.0f));
+                        pOutput.accept(scintilla("vanilla","glass",  "sugar",   "snow",      0x324BB0,9,  2, 0.4f ));
+                        pOutput.accept(scintilla("dusty",  "emerald","diamond", "amethyst",  0xB04BD5,17, 4, 1.2f ));
+                        pOutput.accept(scintilla("jar",    "pearl",  "quartz",  "blaze",     0x973232,33, 6, 6.0f ));
+                        pOutput.accept(scintilla("holy",   "eye",    "echo",    "hots",      0x4B7D97,65, 8, 12.8f));
+                        pOutput.accept(scintilla("star",   "crystal","star",    "prismarine",0x7DCA19,129,10,20.0f));
+                        pOutput.accept(scintilla("heart",  "end",    "snow",    "diamond",   0xFFAADD,257,10,20.0f));
+                        pOutput.accept(scintilla("dusty",  "glass",  "redstone","glowstone", 0xFFFFFF,257,10,20.0f));
+                        pOutput.accept(scintilla("vial",   "crystal","crystal", "crystal",   0x954DBB,257,10,20.0f));
+                        pOutput.accept(scintilla("diamond","end",    "glass",   "glass",     0xC4A2A8,257,10,20.0f));
 
                         pOutput.accept(ModItems.SHATTERGLASS);
 
@@ -108,32 +109,18 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
-    // private static ItemStack scintilla(
-    //         String bs,
-    //         String bm,
-    //         String dl,
-    //         String dr,
-    //         int color,
-    //         int md,
-    //         int hv,
-    //         float sv) {
-    //     CompoundTag display = new CompoundTag();
-    //     display.putString("bs", bs);
-    //     display.putString("bm", bm);
-    //     display.putString("dl", dl);
-    //     display.putString("dr", dr);
-    //     display.putInt("color", color);
-
-    //     CompoundTag tag = new CompoundTag();
-    //     tag.putInt("md", md);
-    //     tag.putInt("hv", hv);
-    //     tag.putFloat("sv", sv);
-    //     tag.put("display", display);
-
-    //     ItemStack stack = new ItemStack(ModItems.SCINTILLA);
-    //     stack.setTag(tag);
-    //     return stack;
-    // }
+    private static ItemStack scintilla(String style, String material, String left, String right, int color, int maxDamage, int nutrition, float saturation) {
+        ItemStack stack = ModItems.SCINTILLA.toStack();
+        stack.set(ModComponents.BOTTLE_STYLE,     style);
+        stack.set(ModComponents.BOTTLE_MATERIAL,  material);
+        stack.set(ModComponents.LEFT_DUST,        left);
+        stack.set(ModComponents.RIGHT_DUST,       right);
+        stack.set(DataComponents.DYED_COLOR,      new DyedItemColor(color, false));
+        stack.set(DataComponents.MAX_DAMAGE,      maxDamage);
+        stack.set(ModComponents.NUTRITION,        nutrition);
+        stack.set(ModComponents.SATURATION,       saturation);
+        return stack;
+    }
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
