@@ -32,76 +32,22 @@ public class ModCreativeModeTabs {
                         pOutput.accept(scintilla("diamond","end",    "glass",   "glass",     0xC4A2A8,257,10,20.0f));
 
                         pOutput.accept(ModItems.SHATTERGLASS);
-
                         pOutput.accept(ModItems.DIAMOND_DUST);
                         pOutput.accept(ModItems.QUARTZ_DUST);
                         pOutput.accept(ModItems.ECHO_DUST);
                         pOutput.accept(ModItems.STAR_DUST);
-
                         pOutput.accept(ModItems.AMETHYST_DUST);
                         pOutput.accept(ModItems.BLAZE_DUST);
                         pOutput.accept(ModItems.HOTS_DUST);
                         pOutput.accept(ModItems.PRISMARINE_DUST);
-
                         pOutput.accept(ModItems.GLASS_DUST);
-                        pOutput.accept(ModItems.DIAMOND_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.DUSTY_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.HEART_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.HOLY_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.JAR_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.STAR_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.VANILLA_GLASS_BOTTLE);
-                        pOutput.accept(ModItems.VIAL_GLASS_BOTTLE);
-
                         pOutput.accept(ModItems.EMERALD_DUST);
-                        pOutput.accept(ModItems.DIAMOND_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.DUSTY_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.HEART_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.HOLY_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.JAR_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.STAR_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.VANILLA_EMERALD_BOTTLE);
-                        pOutput.accept(ModItems.VIAL_EMERALD_BOTTLE);
-
                         pOutput.accept(ModItems.PEARL_DUST);
-                        pOutput.accept(ModItems.DIAMOND_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.DUSTY_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.HEART_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.HOLY_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.JAR_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.STAR_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.VANILLA_PEARL_BOTTLE);
-                        pOutput.accept(ModItems.VIAL_PEARL_BOTTLE);
-
                         pOutput.accept(ModItems.EYE_DUST);
-                        pOutput.accept(ModItems.DIAMOND_EYE_BOTTLE);
-                        pOutput.accept(ModItems.DUSTY_EYE_BOTTLE);
-                        pOutput.accept(ModItems.HEART_EYE_BOTTLE);
-                        pOutput.accept(ModItems.HOLY_EYE_BOTTLE);
-                        pOutput.accept(ModItems.JAR_EYE_BOTTLE);
-                        pOutput.accept(ModItems.STAR_EYE_BOTTLE);
-                        pOutput.accept(ModItems.VANILLA_EYE_BOTTLE);
-                        pOutput.accept(ModItems.VIAL_EYE_BOTTLE);
-
                         pOutput.accept(ModItems.CRYSTAL_DUST);
-                        pOutput.accept(ModItems.DIAMOND_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.DUSTY_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.HEART_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.HOLY_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.JAR_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.STAR_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.VANILLA_CRYSTAL_BOTTLE);
-                        pOutput.accept(ModItems.VIAL_CRYSTAL_BOTTLE);
-
                         pOutput.accept(ModItems.END_DUST);
-                        pOutput.accept(ModItems.DIAMOND_END_BOTTLE);
-                        pOutput.accept(ModItems.DUSTY_END_BOTTLE);
-                        pOutput.accept(ModItems.HEART_END_BOTTLE);
-                        pOutput.accept(ModItems.HOLY_END_BOTTLE);
-                        pOutput.accept(ModItems.JAR_END_BOTTLE);
-                        pOutput.accept(ModItems.STAR_END_BOTTLE);
-                        pOutput.accept(ModItems.VANILLA_END_BOTTLE);
-                        pOutput.accept(ModItems.VIAL_END_BOTTLE);
+
+                        ModItems.BOTTLES.values().forEach(pOutput::accept);
 
                         // pOutput.accept(ModBlocks.FRAILILY);
                         // pOutput.accept(ModBlocks.POTTED_FRAILILY);
