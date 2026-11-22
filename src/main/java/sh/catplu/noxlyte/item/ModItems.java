@@ -12,28 +12,8 @@ import sh.catplu.noxlyte.Noxlyte;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Noxlyte.MODID);
 
-    public static final DeferredItem<Item> SHATTERGLASS = ITEMS.registerSimpleItem("shatterglass");
-    //ITEMS.register("shatterglass", () -> new ShatterglassItem(new Item.Properties()));
-
-    public static final DeferredItem<Item> SCINTILLA = ITEMS.registerSimpleItem("scintilla",
-        new Item.Properties()
-        .stacksTo(1)
-        .durability(9)
-        .food(
-                new FoodProperties.Builder()
-                .alwaysEdible()
-                .nutrition(2)
-                .saturationModifier(0.4F)
-                .build()
-        )
-    );
-//     ITEMS.register("scintilla",
-//     () -> new ScintillaItem(new Item.Properties().stacksTo(1).durability(9)
-//     .food(new FoodProperties.Builder()
-//     .alwaysEat()
-                        //     .nutrition(2)
-                        //     .saturationMod(0.4F)
-                        //     .build())));
+    public static final DeferredItem<ShatterglassItem> SHATTERGLASS = ITEMS.registerItem("shatterglass", ShatterglassItem::new);
+    public static final DeferredItem<ScintillaItem> SCINTILLA = ITEMS.registerItem("scintilla",ScintillaItem::new,new Item.Properties().durability(9).food(ScintillaItem.DEFAULT_FOOD));
 
     public static final DeferredItem<BuildyItem> DIAMOND_DUST = dust("diamond_dust","t1nutrition",Rarity.UNCOMMON);
     public static final DeferredItem<BuildyItem> QUARTZ_DUST = dust("quartz_dust","t2nutrition",Rarity.UNCOMMON);
