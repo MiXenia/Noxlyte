@@ -1,0 +1,37 @@
+{
+  "parent": "noxlyte:root",
+  "criteria": {
+    "has_shatterglass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "noxlyte:shatterglass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.smash_glass.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brick"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.smash_glass.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_shatterglass"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:scintilla"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "noxlyte:cap_up_3",
+  "criteria": {
+    "rarity": {
+      "conditions": {
+        "items": [
+          {
+            "items": "noxlyte:scintilla",
+            "predicates": {
+              "noxlyte:scintilla_rarity": {
+                "min": "rare"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.rare.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 15695267,
+          "show_in_tooltip": false
+        },
+        "noxlyte:bottle_material": "eye",
+        "noxlyte:bottle_style": "holy",
+        "noxlyte:left_dust": "echo",
+        "noxlyte:right_dust": "hots"
+      },
+      "count": 1,
+      "id": "noxlyte:scintilla"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.rare.title"
+    }
+  },
+  "requirements": [
+    [
+      "rarity"
+    ]
+  ]
+}

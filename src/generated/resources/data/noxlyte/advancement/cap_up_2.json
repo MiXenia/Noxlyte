@@ -1,0 +1,55 @@
+{
+  "parent": "noxlyte:cap_up_1",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:max_damage": 33
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.cap_up_2.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:pearl_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.cap_up_2.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:eye_bottles/diamond_bottle",
+      "noxlyte:upgrade/bottle/eye/diamond",
+      "noxlyte:eye_bottles/dusty_bottle",
+      "noxlyte:upgrade/bottle/eye/dusty",
+      "noxlyte:eye_bottles/heart_bottle",
+      "noxlyte:upgrade/bottle/eye/heart",
+      "noxlyte:eye_bottles/holy_bottle",
+      "noxlyte:upgrade/bottle/eye/holy",
+      "noxlyte:eye_bottles/jar_bottle",
+      "noxlyte:upgrade/bottle/eye/jar",
+      "noxlyte:eye_bottles/star_bottle",
+      "noxlyte:upgrade/bottle/eye/star",
+      "noxlyte:eye_bottles/vanilla_bottle",
+      "noxlyte:upgrade/bottle/eye/vanilla",
+      "noxlyte:eye_bottles/vial_bottle",
+      "noxlyte:upgrade/bottle/eye/vial"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "starting_scintilla": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/pink_concrete_powder.png",
+    "description": {
+      "translate": "noxlyte.advancements.root.description"
+    },
+    "icon": {
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 15695267,
+          "show_in_tooltip": false
+        },
+        "noxlyte:bottle_material": "end",
+        "noxlyte:bottle_style": "heart",
+        "noxlyte:left_dust": "snow",
+        "noxlyte:right_dust": "diamond"
+      },
+      "count": 1,
+      "id": "noxlyte:scintilla"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "starting_scintilla"
+    ]
+  ]
+}

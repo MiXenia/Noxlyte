@@ -1,0 +1,40 @@
+{
+  "parent": "noxlyte:craft_first_scintilla",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:nutrition": 4
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.nut_up_1.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:diamond_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.nut_up_1.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:upgrade/dust/quartz"
+    ]
+  }
+}

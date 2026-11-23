@@ -1,0 +1,40 @@
+{
+  "parent": "noxlyte:nut_up_1",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:nutrition": 6
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.nut_up_2.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:quartz_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.nut_up_2.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:upgrade/dust/echo"
+    ]
+  }
+}

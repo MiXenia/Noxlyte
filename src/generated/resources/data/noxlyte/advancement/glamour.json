@@ -1,0 +1,116 @@
+{
+  "parent": "noxlyte:craft_first_scintilla",
+  "criteria": {
+    "glowstone_left": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:left_dust": "glowstone"
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "glowstone_right": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:right_dust": "glowstone"
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gunpowder_left": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:left_dust": "gunpowder"
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gunpowder_right": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:right_dust": "gunpowder"
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "redstone_left": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:left_dust": "redstone"
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "redstone_right": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:right_dust": "redstone"
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.glamour.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 15695267,
+          "show_in_tooltip": false
+        },
+        "noxlyte:bottle_material": "glass",
+        "noxlyte:bottle_style": "dusty",
+        "noxlyte:left_dust": "redstone",
+        "noxlyte:right_dust": "glowstone"
+      },
+      "count": 1,
+      "id": "noxlyte:scintilla"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.glamour.title"
+    }
+  },
+  "requirements": [
+    [
+      "redstone_left",
+      "redstone_right",
+      "glowstone_left",
+      "glowstone_right",
+      "gunpowder_left",
+      "gunpowder_right"
+    ]
+  ]
+}

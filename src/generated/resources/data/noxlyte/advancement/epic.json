@@ -1,0 +1,54 @@
+{
+  "parent": "noxlyte:cap_up_5",
+  "criteria": {
+    "rarity": {
+      "conditions": {
+        "items": [
+          {
+            "items": "noxlyte:scintilla",
+            "predicates": {
+              "noxlyte:scintilla_rarity": {
+                "min": "epic"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.epic.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 15695267,
+          "show_in_tooltip": false
+        },
+        "noxlyte:bottle_material": "end",
+        "noxlyte:bottle_style": "heart",
+        "noxlyte:left_dust": "star",
+        "noxlyte:right_dust": "prismarine"
+      },
+      "count": 1,
+      "id": "noxlyte:scintilla"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.epic.title"
+    }
+  },
+  "requirements": [
+    [
+      "rarity"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "noxlyte:victory"
+    ]
+  }
+}

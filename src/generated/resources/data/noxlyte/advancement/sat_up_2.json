@@ -1,0 +1,40 @@
+{
+  "parent": "noxlyte:sat_up_1",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:saturation": 6.0
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.sat_up_2.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:blaze_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.sat_up_2.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:upgrade/dust/hots"
+    ]
+  }
+}

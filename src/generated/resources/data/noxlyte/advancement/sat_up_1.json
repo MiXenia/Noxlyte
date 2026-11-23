@@ -1,0 +1,40 @@
+{
+  "parent": "noxlyte:craft_first_scintilla",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:saturation": 1.2
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.sat_up_1.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:amethyst_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.sat_up_1.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:upgrade/dust/blaze"
+    ]
+  }
+}

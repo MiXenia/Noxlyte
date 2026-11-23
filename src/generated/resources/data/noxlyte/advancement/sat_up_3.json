@@ -1,0 +1,40 @@
+{
+  "parent": "noxlyte:sat_up_2",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:saturation": 12.8
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.sat_up_3.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:hots_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.sat_up_3.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:upgrade/dust/prismarine"
+    ]
+  }
+}

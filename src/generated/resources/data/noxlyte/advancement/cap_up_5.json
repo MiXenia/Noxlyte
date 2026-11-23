@@ -1,0 +1,35 @@
+{
+  "parent": "noxlyte:cap_up_4",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:max_damage": 257
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.cap_up_5.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:end_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.cap_up_5.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ]
+}

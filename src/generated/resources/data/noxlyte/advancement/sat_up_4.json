@@ -1,0 +1,35 @@
+{
+  "parent": "noxlyte:sat_up_3",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "noxlyte:saturation": 20.0
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.sat_up_4.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:prismarine_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.sat_up_4.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ]
+}

@@ -1,32 +1,45 @@
 {
   "parent": "noxlyte:smash_glass",
-  "display": {
-    "icon": {
-      "item": "noxlyte:scintilla",
-      "nbt": "{display:{color:15695267,dl:\"sugar\",dr:\"snow\",bs:\"vanilla\",bm:\"glass\"}}"
-    },
-    "title": {
-      "translate": "noxlyte.advancements.craft_first_noxlyte.title"
-    },
-    "description": {
-      "translate": "noxlyte.advancements.craft_first_noxlyte.description"
-    },
-    "frame": "goal"
-  },
   "criteria": {
-    "smashing_glass": {
-      "trigger": "minecraft:inventory_changed",
+    "has_scintilla": {
       "conditions": {
         "items": [
           {
-            "items": [
-              "noxlyte:scintilla"
-            ]
+            "items": "noxlyte:scintilla"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.craft_first_scintilla.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 15695267,
+          "show_in_tooltip": false
+        },
+        "noxlyte:bottle_material": "glass",
+        "noxlyte:bottle_style": "vanilla",
+        "noxlyte:left_dust": "sugar",
+        "noxlyte:right_dust": "snow"
+      },
+      "count": 1,
+      "id": "noxlyte:scintilla"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.craft_first_scintilla.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_scintilla"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "noxlyte:dust_grinding/amethyst_dust",
@@ -43,48 +56,42 @@
       "noxlyte:dust_grinding/prismarine_dust",
       "noxlyte:dust_grinding/quartz_dust",
       "noxlyte:dust_grinding/star_dust",
-
       "noxlyte:glass_bottles/diamond_bottle",
-      "noxlyte:glass_bottles/dusty_bottle",
-      "noxlyte:glass_bottles/heart_bottle",
-      "noxlyte:glass_bottles/holy_bottle",
-      "noxlyte:glass_bottles/jar_bottle",
-      "noxlyte:glass_bottles/star_bottle",
-      "noxlyte:glass_bottles/vanilla_bottle",
-      "noxlyte:glass_bottles/vial_bottle",
-
-      "noxlyte:emerald_bottles/diamond_bottle",
-      "noxlyte:emerald_bottles/dusty_bottle",
-      "noxlyte:emerald_bottles/heart_bottle",
-      "noxlyte:emerald_bottles/holy_bottle",
-      "noxlyte:emerald_bottles/jar_bottle",
-      "noxlyte:emerald_bottles/star_bottle",
-      "noxlyte:emerald_bottles/vanilla_bottle",
-      "noxlyte:emerald_bottles/vial_bottle",
-
       "noxlyte:upgrade/bottle/glass/diamond",
+      "noxlyte:glass_bottles/dusty_bottle",
       "noxlyte:upgrade/bottle/glass/dusty",
+      "noxlyte:glass_bottles/heart_bottle",
       "noxlyte:upgrade/bottle/glass/heart",
+      "noxlyte:glass_bottles/holy_bottle",
       "noxlyte:upgrade/bottle/glass/holy",
+      "noxlyte:glass_bottles/jar_bottle",
       "noxlyte:upgrade/bottle/glass/jar",
+      "noxlyte:glass_bottles/star_bottle",
       "noxlyte:upgrade/bottle/glass/star",
+      "noxlyte:glass_bottles/vanilla_bottle",
       "noxlyte:upgrade/bottle/glass/vanilla",
+      "noxlyte:glass_bottles/vial_bottle",
       "noxlyte:upgrade/bottle/glass/vial",
-
+      "noxlyte:emerald_bottles/diamond_bottle",
       "noxlyte:upgrade/bottle/emerald/diamond",
+      "noxlyte:emerald_bottles/dusty_bottle",
       "noxlyte:upgrade/bottle/emerald/dusty",
+      "noxlyte:emerald_bottles/heart_bottle",
       "noxlyte:upgrade/bottle/emerald/heart",
+      "noxlyte:emerald_bottles/holy_bottle",
       "noxlyte:upgrade/bottle/emerald/holy",
+      "noxlyte:emerald_bottles/jar_bottle",
       "noxlyte:upgrade/bottle/emerald/jar",
+      "noxlyte:emerald_bottles/star_bottle",
       "noxlyte:upgrade/bottle/emerald/star",
+      "noxlyte:emerald_bottles/vanilla_bottle",
       "noxlyte:upgrade/bottle/emerald/vanilla",
+      "noxlyte:emerald_bottles/vial_bottle",
       "noxlyte:upgrade/bottle/emerald/vial",
-
       "noxlyte:upgrade/dust/sugar",
+      "noxlyte:upgrade/dust/diamond",
       "noxlyte:upgrade/dust/snow",
       "noxlyte:upgrade/dust/amethyst",
-      "noxlyte:upgrade/dust/diamond",
-
       "noxlyte:glamour/bottle/glass/diamond",
       "noxlyte:glamour/bottle/glass/dusty",
       "noxlyte:glamour/bottle/glass/heart",
@@ -93,7 +100,6 @@
       "noxlyte:glamour/bottle/glass/star",
       "noxlyte:glamour/bottle/glass/vanilla",
       "noxlyte:glamour/bottle/glass/vial",
-
       "noxlyte:glamour/bottle/emerald/diamond",
       "noxlyte:glamour/bottle/emerald/dusty",
       "noxlyte:glamour/bottle/emerald/heart",
@@ -102,7 +108,6 @@
       "noxlyte:glamour/bottle/emerald/star",
       "noxlyte:glamour/bottle/emerald/vanilla",
       "noxlyte:glamour/bottle/emerald/vial",
-
       "noxlyte:glamour/bottle/pearl/diamond",
       "noxlyte:glamour/bottle/pearl/dusty",
       "noxlyte:glamour/bottle/pearl/heart",
@@ -111,7 +116,6 @@
       "noxlyte:glamour/bottle/pearl/star",
       "noxlyte:glamour/bottle/pearl/vanilla",
       "noxlyte:glamour/bottle/pearl/vial",
-
       "noxlyte:glamour/bottle/eye/diamond",
       "noxlyte:glamour/bottle/eye/dusty",
       "noxlyte:glamour/bottle/eye/heart",
@@ -120,7 +124,6 @@
       "noxlyte:glamour/bottle/eye/star",
       "noxlyte:glamour/bottle/eye/vanilla",
       "noxlyte:glamour/bottle/eye/vial",
-
       "noxlyte:glamour/bottle/crystal/diamond",
       "noxlyte:glamour/bottle/crystal/dusty",
       "noxlyte:glamour/bottle/crystal/heart",
@@ -129,7 +132,6 @@
       "noxlyte:glamour/bottle/crystal/star",
       "noxlyte:glamour/bottle/crystal/vanilla",
       "noxlyte:glamour/bottle/crystal/vial",
-
       "noxlyte:glamour/bottle/end/diamond",
       "noxlyte:glamour/bottle/end/dusty",
       "noxlyte:glamour/bottle/end/heart",
@@ -138,7 +140,6 @@
       "noxlyte:glamour/bottle/end/star",
       "noxlyte:glamour/bottle/end/vanilla",
       "noxlyte:glamour/bottle/end/vial",
-
       "noxlyte:glamour/dust/left/amethyst",
       "noxlyte:glamour/dust/left/blaze",
       "noxlyte:glamour/dust/left/crystal",
@@ -158,7 +159,6 @@
       "noxlyte:glamour/dust/left/snow",
       "noxlyte:glamour/dust/left/star",
       "noxlyte:glamour/dust/left/sugar",
-
       "noxlyte:glamour/dust/right/amethyst",
       "noxlyte:glamour/dust/right/blaze",
       "noxlyte:glamour/dust/right/crystal",

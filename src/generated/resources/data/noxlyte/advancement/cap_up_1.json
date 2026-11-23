@@ -1,0 +1,55 @@
+{
+  "parent": "noxlyte:craft_first_scintilla",
+  "criteria": {
+    "reached": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:max_damage": 17
+            },
+            "items": "noxlyte:scintilla"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.cap_up_1.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:emerald_dust"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.cap_up_1.title"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "noxlyte:pearl_bottles/diamond_bottle",
+      "noxlyte:upgrade/bottle/pearl/diamond",
+      "noxlyte:pearl_bottles/dusty_bottle",
+      "noxlyte:upgrade/bottle/pearl/dusty",
+      "noxlyte:pearl_bottles/heart_bottle",
+      "noxlyte:upgrade/bottle/pearl/heart",
+      "noxlyte:pearl_bottles/holy_bottle",
+      "noxlyte:upgrade/bottle/pearl/holy",
+      "noxlyte:pearl_bottles/jar_bottle",
+      "noxlyte:upgrade/bottle/pearl/jar",
+      "noxlyte:pearl_bottles/star_bottle",
+      "noxlyte:upgrade/bottle/pearl/star",
+      "noxlyte:pearl_bottles/vanilla_bottle",
+      "noxlyte:upgrade/bottle/pearl/vanilla",
+      "noxlyte:pearl_bottles/vial_bottle",
+      "noxlyte:upgrade/bottle/pearl/vial"
+    ]
+  }
+}
