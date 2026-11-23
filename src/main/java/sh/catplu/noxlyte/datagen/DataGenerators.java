@@ -9,6 +9,7 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.data.AdvancementProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import sh.catplu.noxlyte.Noxlyte;
 
@@ -19,14 +20,17 @@ public class DataGenerators {
         DataGenerator generator = event.getGenerator();
         PackOutput output = generator.getPackOutput();
         CompletableFuture<HolderLookup.Provider> lookup = event.getLookupProvider();
+        ExistingFileHelper helper = event.getExistingFileHelper();
 
         generator.addProvider(event.includeServer(), new ModRecipeProvider(output,lookup));
         generator.addProvider(event.includeServer(), new AdvancementProvider(
             output,
             lookup,
-            event.getExistingFileHelper(),
+            helper,
             List.of(new ModAdvancements())
         ));
         generator.addProvider(event.includeServer(), new ModLootModifierProvider(output,lookup));
+        generator.addProvider(event.includeServer(), new ModItemTagProvider(output, lookup, helper));
+        generator.addProvider(event.includeClient(), new ModItemModelProvider(output, helper));
     }
 }
