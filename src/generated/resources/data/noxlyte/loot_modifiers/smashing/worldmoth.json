@@ -1,0 +1,16 @@
+{
+  "type": "noxlyte:smashing",
+  "color": 6260615,
+  "conditions": [
+    {
+      "block": "minecraft:tinted_glass",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": "minecraft:echo_shard"
+      }
+    }
+  ]
+}

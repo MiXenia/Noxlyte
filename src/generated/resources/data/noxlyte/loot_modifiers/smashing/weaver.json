@@ -1,0 +1,16 @@
+{
+  "type": "noxlyte:smashing",
+  "color": 16755421,
+  "conditions": [
+    {
+      "block": "minecraft:pink_stained_glass",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": "minecraft:sugar"
+      }
+    }
+  ]
+}

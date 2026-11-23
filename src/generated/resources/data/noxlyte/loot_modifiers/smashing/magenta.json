@@ -1,0 +1,16 @@
+{
+  "type": "noxlyte:smashing",
+  "color": 11553749,
+  "conditions": [
+    {
+      "block": "minecraft:magenta_stained_glass",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": "minecraft:brick"
+      }
+    }
+  ]
+}

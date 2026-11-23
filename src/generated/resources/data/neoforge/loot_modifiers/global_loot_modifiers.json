@@ -1,0 +1,26 @@
+{
+  "entries": [
+    "noxlyte:smashing/white",
+    "noxlyte:smashing/orange",
+    "noxlyte:smashing/magenta",
+    "noxlyte:smashing/light_blue",
+    "noxlyte:smashing/yellow",
+    "noxlyte:smashing/lime",
+    "noxlyte:smashing/pink",
+    "noxlyte:smashing/gray",
+    "noxlyte:smashing/light_gray",
+    "noxlyte:smashing/cyan",
+    "noxlyte:smashing/purple",
+    "noxlyte:smashing/blue",
+    "noxlyte:smashing/brown",
+    "noxlyte:smashing/green",
+    "noxlyte:smashing/red",
+    "noxlyte:smashing/black",
+    "noxlyte:smashing/weaver",
+    "noxlyte:smashing/catbird",
+    "noxlyte:smashing/priestess",
+    "noxlyte:smashing/worldmoth",
+    "noxlyte:smashing/skyeater"
+  ],
+  "replace": false
+}
