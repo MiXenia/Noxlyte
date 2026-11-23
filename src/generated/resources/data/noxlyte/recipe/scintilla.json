@@ -1,0 +1,37 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 4,
+  "key": {
+    "O": {
+      "item": "minecraft:snowball"
+    },
+    "U": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "X": {
+      "item": "noxlyte:shatterglass"
+    },
+    "^": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "UUU",
+    "OXO",
+    "^^^"
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 9,
+      "noxlyte:bottle_material": "glass",
+      "noxlyte:bottle_style": "vanilla",
+      "noxlyte:left_dust": "sugar",
+      "noxlyte:nutrition": 2,
+      "noxlyte:right_dust": "snow",
+      "noxlyte:saturation": 0.4
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

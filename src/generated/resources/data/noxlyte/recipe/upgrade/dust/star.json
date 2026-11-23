@@ -1,0 +1,27 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 4,
+  "group": "noxlyte_upgrade_dust_left",
+  "key": {
+    "U": {
+      "item": "noxlyte:star_dust"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "UUU",
+    "UXU",
+    "UUU"
+  ],
+  "result": {
+    "components": {
+      "noxlyte:left_dust": "star",
+      "noxlyte:nutrition": 10
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

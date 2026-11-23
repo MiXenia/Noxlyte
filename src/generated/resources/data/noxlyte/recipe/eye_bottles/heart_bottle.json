@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "eye_bottles",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "noxlyte:eye_dust"
+    }
+  },
+  "pattern": [
+    "GCG",
+    "GGG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "noxlyte:heart_eye_bottle"
+  }
+}

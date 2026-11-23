@@ -1,0 +1,28 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 3,
+  "group": "noxlyte_glamour_left_dust",
+  "key": {
+    "O": {
+      "tag": "c:dyes"
+    },
+    "U": {
+      "item": "noxlyte:eye_dust"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    " O",
+    "UX"
+  ],
+  "result": {
+    "components": {
+      "noxlyte:left_dust": "eye"
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

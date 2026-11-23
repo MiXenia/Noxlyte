@@ -1,0 +1,26 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "group": "noxlyte_upgrade_bottle",
+  "key": {
+    "U": {
+      "item": "noxlyte:vanilla_emerald_bottle"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "X",
+    "U"
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 17,
+      "noxlyte:bottle_material": "emerald",
+      "noxlyte:bottle_style": "vanilla"
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

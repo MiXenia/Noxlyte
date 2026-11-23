@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "emerald_bottles",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "noxlyte:emerald_dust"
+    }
+  },
+  "pattern": [
+    " C ",
+    "GGG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "noxlyte:diamond_emerald_bottle"
+  }
+}

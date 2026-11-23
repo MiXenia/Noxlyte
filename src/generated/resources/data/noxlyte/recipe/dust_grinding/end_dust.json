@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:end_rod"
+  },
+  "result": {
+    "count": 1,
+    "id": "noxlyte:end_dust"
+  }
+}

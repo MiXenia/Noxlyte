@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pearl_bottles",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "noxlyte:pearl_dust"
+    }
+  },
+  "pattern": [
+    " C ",
+    "GGG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "noxlyte:diamond_pearl_bottle"
+  }
+}

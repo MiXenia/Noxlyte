@@ -1,0 +1,27 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 4,
+  "group": "noxlyte_upgrade_dust_right",
+  "key": {
+    "U": {
+      "item": "noxlyte:hots_dust"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "UUU",
+    "UXU",
+    "UUU"
+  ],
+  "result": {
+    "components": {
+      "noxlyte:right_dust": "hots",
+      "noxlyte:saturation": 12.8
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

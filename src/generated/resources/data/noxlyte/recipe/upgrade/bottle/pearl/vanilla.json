@@ -1,0 +1,26 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "group": "noxlyte_upgrade_bottle",
+  "key": {
+    "U": {
+      "item": "noxlyte:vanilla_pearl_bottle"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "X",
+    "U"
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 33,
+      "noxlyte:bottle_material": "pearl",
+      "noxlyte:bottle_style": "vanilla"
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

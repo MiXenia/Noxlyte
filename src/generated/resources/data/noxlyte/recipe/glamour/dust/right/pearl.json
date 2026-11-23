@@ -1,0 +1,28 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 2,
+  "group": "noxlyte_glamour_right_dust",
+  "key": {
+    "O": {
+      "tag": "c:dyes"
+    },
+    "U": {
+      "item": "noxlyte:pearl_dust"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "O ",
+    "XU"
+  ],
+  "result": {
+    "components": {
+      "noxlyte:right_dust": "pearl"
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

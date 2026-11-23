@@ -1,0 +1,30 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 1,
+  "group": "noxlyte_glamour_bottle",
+  "key": {
+    "O": {
+      "tag": "c:dyes"
+    },
+    "U": {
+      "item": "noxlyte:diamond_pearl_bottle"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "O",
+    "X",
+    "U"
+  ],
+  "result": {
+    "components": {
+      "noxlyte:bottle_material": "pearl",
+      "noxlyte:bottle_style": "diamond"
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

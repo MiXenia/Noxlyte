@@ -1,0 +1,27 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "color_slot": 4,
+  "group": "noxlyte_upgrade_dust_right",
+  "key": {
+    "U": {
+      "item": "noxlyte:blaze_dust"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "UUU",
+    "UXU",
+    "UUU"
+  ],
+  "result": {
+    "components": {
+      "noxlyte:right_dust": "blaze",
+      "noxlyte:saturation": 6.0
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}
