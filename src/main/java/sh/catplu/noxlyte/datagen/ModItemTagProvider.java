@@ -7,8 +7,10 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.tags.ItemTags;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import sh.catplu.noxlyte.Noxlyte;
+import sh.catplu.noxlyte.block.ModBlocks;
 import sh.catplu.noxlyte.item.ModItems;
 
 public class ModItemTagProvider extends ItemTagsProvider {
@@ -28,5 +30,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
             ModItems.SHATTERGLASS.get(),
             ModItems.SCINTILLA.get()
         );
+        tag(Tags.Items.HIDDEN_FROM_RECIPE_VIEWERS).add(ModBlocks.FRAILILY.asItem());
     }
 }
