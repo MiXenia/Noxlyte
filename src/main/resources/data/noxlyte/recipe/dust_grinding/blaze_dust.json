@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:blaze_rod"
-  },
-  "result": "noxlyte:blaze_dust",
-  "count": 1
-}

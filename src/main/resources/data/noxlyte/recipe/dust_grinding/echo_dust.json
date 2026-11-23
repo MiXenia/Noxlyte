@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:echo_shard"
-  },
-  "result": "noxlyte:echo_dust",
-  "count": 1
-}

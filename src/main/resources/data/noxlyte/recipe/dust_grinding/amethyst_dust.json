@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:amethyst_shard"
-  },
-  "result": "noxlyte:amethyst_dust",
-  "count": 1
-}

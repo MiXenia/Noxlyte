@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:emerald"
-  },
-  "result": "noxlyte:emerald_dust",
-  "count": 1
-}
