@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "noxlyte:item/frailily"
-  },
-  "render_type": "minecraft:translucent"
-}
