@@ -27,5 +27,6 @@ public class DataGenerators {
             event.getExistingFileHelper(),
             List.of(new ModAdvancements())
         ));
+        generator.addProvider(event.includeServer(), new ModLootModifierProvider(output,lookup));
     }
 }

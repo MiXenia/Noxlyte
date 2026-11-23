@@ -2,13 +2,10 @@ package sh.catplu.noxlyte.datagen;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
 import org.jetbrains.annotations.Nullable;
-
-import com.google.common.collect.ImmutableMap;
 
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
@@ -45,14 +42,6 @@ import sh.catplu.noxlyte.item.Parts;
 public class ModAdvancements implements AdvancementProvider.AdvancementGenerator {
     private static final int ICON_COLOR = 0xEF7DA3;
 
-    private static final Map<String, Integer> SECRET_COLORS = ImmutableMap.of(
-        "weaver",    0xFFAADD,
-        "catbird",   0x0F00B3,
-        "priestess", 0xA06666,
-        "worldmoth", 0x5f8787,
-        "skyeater",  0x00FFFB
-    );
-
     @Override
     public void generate(HolderLookup.Provider registries, Consumer<AdvancementHolder> saver, ExistingFileHelper ExistingFileHelper) {
         // scintilla root //
@@ -77,7 +66,21 @@ public class ModAdvancements implements AdvancementProvider.AdvancementGenerator
         Advancement.Builder secret = node(root, "secret_glass", shatterglassIcon(0xFFAADD), AdvancementType.CHALLENGE, false, true)
             .requirements(AdvancementRequirements.Strategy.OR)
             .rewards(AdvancementRewards.Builder.loot(lootTable("kickstart")));
-        SECRET_COLORS.forEach((name,rgb) -> secret.addCriterion(name, has(ModItems.SHATTERGLASS, is(DataComponents.DYED_COLOR, new DyedItemColor(rgb,true)))));
+        ModLootModifierProvider.SECRET_SMASHES.forEach(smash -> 
+            secret.addCriterion(
+                smash.name(),
+                has(
+                    ModItems.SHATTERGLASS,
+                    is(
+                        DataComponents.DYED_COLOR,
+                        new DyedItemColor(
+                            smash.color(),
+                            true
+                        )
+                    )
+                )
+            )
+        );
         secret.save(saver,id("secret_glass"));
 
         // first scintilla //

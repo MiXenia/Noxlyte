@@ -15,6 +15,7 @@ import sh.catplu.noxlyte.block.ModBlocks;
 import sh.catplu.noxlyte.component.ModComponents;
 import sh.catplu.noxlyte.item.ModCreativeModeTabs;
 import sh.catplu.noxlyte.item.ModItems;
+import sh.catplu.noxlyte.loot.ModLootModifiers;
 import sh.catplu.noxlyte.recipe.ModRecipes;
 
 @Mod(Noxlyte.MODID)
@@ -32,6 +33,7 @@ public class Noxlyte {
         ModComponents.register(modEventBus);
         ModRecipes.register(modEventBus);
         ModPredicates.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
     }
 
