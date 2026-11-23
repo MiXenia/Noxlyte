@@ -10,6 +10,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import sh.catplu.noxlyte.advancement.ModPredicates;
 import sh.catplu.noxlyte.block.ModBlocks;
 import sh.catplu.noxlyte.component.ModComponents;
 import sh.catplu.noxlyte.item.ModCreativeModeTabs;
@@ -30,6 +31,7 @@ public class Noxlyte {
         LOGGER.info("Sending Gifts to 'Minecraft NeoForge'...");
         ModComponents.register(modEventBus);
         ModRecipes.register(modEventBus);
+        ModPredicates.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
     }
 

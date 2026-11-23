@@ -134,7 +134,7 @@ public class ModRecipeProvider extends RecipeProvider{
     );
 
     // stonecutter //
-    private record Grind(Item from, int count) {}
+    record Grind(Item from, int count) {}
 
     private static Grind grinder(Item from) {
         return grinder(from, 1);
@@ -143,7 +143,7 @@ public class ModRecipeProvider extends RecipeProvider{
         return new Grind(from,count);
     }
 
-    private static final Map<String, Grind> GRIND_CORE = Map.ofEntries(
+    static final Map<String, Grind> GRIND_CORE = Map.ofEntries(
         Map.entry("amethyst",   grinder(Items.AMETHYST_SHARD)),
         Map.entry("blaze",      grinder(Items.BLAZE_ROD)),
         Map.entry("crystal",    grinder(Items.END_CRYSTAL)),
@@ -412,7 +412,7 @@ public class ModRecipeProvider extends RecipeProvider{
     }
 
     // dust accumulator //
-    private static Item dustItem(String dust) {
+    static Item dustItem(String dust) {
         Item vanilla = VANILLA_DUSTS.get(dust);
         if (vanilla != null) return vanilla;
         return BuiltInRegistries.ITEM.getOptional(id(dust + "_dust")).orElseThrow(() -> new IllegalStateException("No item for dust '" + dust + "'."));
