@@ -8,6 +8,7 @@ import org.jetbrains.annotations.Nullable;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.FastColor;
@@ -48,7 +49,7 @@ public class ScintillaItem extends Item{
                 if (food != null) {
                     player.getFoodData().eat(food);
                 }
-                stack.setDamageValue(stack.getDamageValue() + 1);
+                if (player instanceof ServerPlayer sp) stack.hurtAndBreak(1, sp.serverLevel(), sp, item -> {});
             }
         return stack;
     }
@@ -56,6 +57,13 @@ public class ScintillaItem extends Item{
     @Override 
     public SoundEvent getEatingSound() {
         return SoundEvents.AMETHYST_BLOCK_BREAK;
+    }
+
+    // enchanting //
+
+    @Override
+    public int getEnchantmentValue(ItemStack stack) {
+        return 22;
     }
 
     // durability bar //

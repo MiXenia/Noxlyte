@@ -2,6 +2,7 @@ package sh.catplu.noxlyte.datagen;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
@@ -14,7 +15,9 @@ import net.minecraft.advancements.AdvancementRewards;
 import net.minecraft.advancements.AdvancementType;
 import net.minecraft.advancements.Criterion;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
+import net.minecraft.advancements.critereon.ItemDurabilityTrigger;
 import net.minecraft.advancements.critereon.ItemPredicate;
+import net.minecraft.advancements.critereon.MinMaxBounds;
 import net.minecraft.advancements.critereon.PlayerTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.component.DataComponentPredicate;
@@ -142,6 +145,18 @@ public class ModAdvancements implements AdvancementProvider.AdvancementGenerator
         rarity(saver,cap.get(2),"rare",    AdvancementType.GOAL,     Rarity.RARE,    scintillaIcon("holy", "eye",    "echo",   "hots"),      null);
         // Victory //
         rarity(saver,cap.get(4),"epic",    AdvancementType.CHALLENGE,Rarity.EPIC,    scintillaIcon("heart","end",    "star",   "prismarine"),lootTable("victory"));
+
+        // No Snow in Mezhr-Mezhr //
+        node(cap.get(4), "depletion_challenge", ModItems.bottle("kit", "end").toStack(), AdvancementType.CHALLENGE,true,false)
+            .addCriterion("depleted", ItemDurabilityTrigger.TriggerInstance.changedDurability(Optional.of(
+                ItemPredicate.Builder.item()
+                    .of(ModItems.SCINTILLA)
+                    .hasComponents(is(DataComponents.MAX_DAMAGE, Parts.CAPACITY.get("end")))
+                    .build()
+            ),
+            MinMaxBounds.Ints.exactly(1)
+        ))
+        .save(saver, id("depletion_challenge"));
 
         // Glam Guide //
         Advancement.Builder glamour = node(

@@ -11,6 +11,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import sh.catplu.noxlyte.advancement.ModPredicates;
+import sh.catplu.noxlyte.attachment.ModAttachments;
 import sh.catplu.noxlyte.block.ModBlocks;
 import sh.catplu.noxlyte.component.ModComponents;
 import sh.catplu.noxlyte.item.ModCreativeModeTabs;
@@ -34,6 +35,7 @@ public class Noxlyte {
         ModRecipes.register(modEventBus);
         ModPredicates.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModAttachments.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
     }
 

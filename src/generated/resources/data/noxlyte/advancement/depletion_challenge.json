@@ -1,0 +1,35 @@
+{
+  "parent": "noxlyte:cap_up_5",
+  "criteria": {
+    "depleted": {
+      "conditions": {
+        "durability": 1,
+        "item": {
+          "components": {
+            "minecraft:max_damage": 257
+          },
+          "items": "noxlyte:scintilla"
+        }
+      },
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "noxlyte.advancements.depletion_challenge.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "noxlyte:kit_end_bottle"
+    },
+    "title": {
+      "translate": "noxlyte.advancements.depletion_challenge.title"
+    }
+  },
+  "requirements": [
+    [
+      "depleted"
+    ]
+  ]
+}

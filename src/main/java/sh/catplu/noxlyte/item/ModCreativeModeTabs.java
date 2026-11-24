@@ -21,15 +21,15 @@ public class ModCreativeModeTabs {
                     .icon(() -> scintilla("heart", "end", "snow", "diamond", 0xFFAADD, 257, 10, 20.0f))
                     .title(Component.translatable("creativetab.noxlyte_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(scintilla("vanilla","glass",  "sugar",   "snow",      0x324BB0,9,  2, 0.4f ));
-                        pOutput.accept(scintilla("dusty",  "emerald","diamond", "amethyst",  0xB04BD5,17, 4, 1.2f ));
-                        pOutput.accept(scintilla("jar",    "pearl",  "quartz",  "blaze",     0x973232,33, 6, 6.0f ));
-                        pOutput.accept(scintilla("holy",   "eye",    "echo",    "hots",      0x4B7D97,65, 8, 12.8f));
-                        pOutput.accept(scintilla("star",   "crystal","star",    "prismarine",0x7DCA19,129,10,20.0f));
-                        pOutput.accept(scintilla("heart",  "end",    "snow",    "diamond",   0xFFAADD,257,10,20.0f));
-                        pOutput.accept(scintilla("dusty",  "glass",  "redstone","glowstone", 0xFFFFFF,257,10,20.0f));
-                        pOutput.accept(scintilla("vial",   "crystal","crystal", "crystal",   0x954DBB,257,10,20.0f));
-                        pOutput.accept(scintilla("diamond","end",    "glass",   "glass",     0xC4A2A8,257,10,20.0f));
+                        pOutput.accept(scintilla("vanilla","glass",  "sugar",    "snow",      0x324BB0,9,  2, 0.4f ));
+                        pOutput.accept(scintilla("dusty",  "emerald","diamond",  "amethyst",  0xB04BD5,17, 4, 1.2f ));
+                        pOutput.accept(scintilla("jar",    "pearl",  "quartz",   "blaze",     0x973232,33, 6, 6.0f ));
+                        pOutput.accept(scintilla("holy",   "eye",    "echo",     "hots",      0x4B7D97,65, 8, 12.8f));
+                        pOutput.accept(scintilla("star",   "crystal","star",     "prismarine",0x7DCA19,129,10,20.0f));
+                        pOutput.accept(scintilla("heart",  "end",    "snow",     "diamond",   0xFFAADD,257,10,20.0f));
+                        pOutput.accept(scintilla("bulb",   "glass",  "glowstone","glowstone", 0xD57D32,257,10,20.0f));
+                        pOutput.accept(scintilla("kit",    "crystal","crystal",  "crystal",   0x954DBB,257,10,20.0f));
+                        pOutput.accept(scintilla("duo",    "end",    "redstone", "diamond",   0xFFFFFF,257,10,20.0f));
 
                         pOutput.accept(ModItems.SHATTERGLASS);
                         pOutput.accept(ModItems.DIAMOND_DUST);

@@ -12,6 +12,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import sh.catplu.noxlyte.Noxlyte;
 import sh.catplu.noxlyte.block.ModBlocks;
 import sh.catplu.noxlyte.item.ModItems;
+import sh.catplu.noxlyte.item.ModTags;
 
 public class ModItemTagProvider extends ItemTagsProvider {
     public ModItemTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookup, ExistingFileHelper helper) {
@@ -31,5 +32,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
             ModItems.SCINTILLA.get()
         );
         tag(Tags.Items.HIDDEN_FROM_RECIPE_VIEWERS).add(ModBlocks.FRAILILY.asItem());
+        tag(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.SCINTILLA.get());
+        
+        // because Noxlyte loves you //
+        var sewn = tag(ModTags.SEWN);
+        ModItems.ITEMS.getEntries().forEach(item -> sewn.add(item.get()));
     }
 }

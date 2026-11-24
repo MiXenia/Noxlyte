@@ -190,5 +190,7 @@
   "noxlyte.advancements.glamour.description": "Using dye in your crafting table, you can change your Scintilla visually without changing its stats. Try using redstone, glowstone, or gunpowder as a cosmetic!",
 
   "noxlyte.advancements.depletion_challenge.title": "No Snow in Mezhr-Mezhr",
-  "noxlyte.advancements.depletion_challenge.description": "Run out of Scintilla with a Final Bottle."
+  "noxlyte.advancements.depletion_challenge.description": "Run out of Scintilla with a Final Bottle.",
+
+  "tag.item.noxlyte.sewn": "Sewn"
 }
