@@ -29,7 +29,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(scintilla("heart",  "end",    "snow",     "diamond",   0xFFAADD,257,10,20.0f));
                         pOutput.accept(scintilla("bulb",   "glass",  "glowstone","glowstone", 0xD57D32,257,10,20.0f));
                         pOutput.accept(scintilla("kit",    "crystal","crystal",  "crystal",   0x954DBB,257,10,20.0f));
-                        pOutput.accept(scintilla("duo",    "end",    "redstone", "diamond",   0xFFFFFF,257,10,20.0f));
+                        pOutput.accept(scintilla("duo",    "end",    "diamond",  "redstone",  0xFFFFFF,257,10,20.0f));
 
                         pOutput.accept(ModItems.SHATTERGLASS);
                         pOutput.accept(ModItems.DIAMOND_DUST);

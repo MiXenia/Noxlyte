@@ -15,7 +15,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Noxlyte.MODID);
 
     public static final DeferredItem<ShatterglassItem> SHATTERGLASS = ITEMS.registerItem("shatterglass", ShatterglassItem::new);
-    public static final DeferredItem<ScintillaItem> SCINTILLA = ITEMS.registerItem("scintilla",ScintillaItem::new,new Item.Properties().durability(1).food(ScintillaItem.DEFAULT_FOOD));
+    public static final DeferredItem<ScintillaItem> SCINTILLA = ITEMS.registerItem("scintilla",ScintillaItem::new,new Item.Properties().durability(1).food(ScintillaItem.DEFAULT_FOOD).setNoRepair());
 
     public static final DeferredItem<BuildyItem> DIAMOND_DUST = dust("diamond_dust","t1nutrition",Rarity.UNCOMMON);
     public static final DeferredItem<BuildyItem> QUARTZ_DUST = dust("quartz_dust","t2nutrition",Rarity.UNCOMMON);
