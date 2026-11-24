@@ -34,8 +34,12 @@
   ],
   "rewards": {
     "recipes": [
+      "noxlyte:eye_bottles/bulb_bottle",
+      "noxlyte:upgrade/bottle/eye/bulb",
       "noxlyte:eye_bottles/diamond_bottle",
       "noxlyte:upgrade/bottle/eye/diamond",
+      "noxlyte:eye_bottles/duo_bottle",
+      "noxlyte:upgrade/bottle/eye/duo",
       "noxlyte:eye_bottles/dusty_bottle",
       "noxlyte:upgrade/bottle/eye/dusty",
       "noxlyte:eye_bottles/heart_bottle",
@@ -44,6 +48,8 @@
       "noxlyte:upgrade/bottle/eye/holy",
       "noxlyte:eye_bottles/jar_bottle",
       "noxlyte:upgrade/bottle/eye/jar",
+      "noxlyte:eye_bottles/kit_bottle",
+      "noxlyte:upgrade/bottle/eye/kit",
       "noxlyte:eye_bottles/star_bottle",
       "noxlyte:upgrade/bottle/eye/star",
       "noxlyte:eye_bottles/vanilla_bottle",

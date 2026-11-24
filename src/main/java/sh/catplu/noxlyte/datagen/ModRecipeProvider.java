@@ -35,14 +35,14 @@ public class ModRecipeProvider extends RecipeProvider{
     // tables //
 
     private static final Map<String, List<String>> BOTTLE_PATTERNS = Map.ofEntries(
-        // Map.entry(
-        //     "bulb",
-        //     List.of(
-        //         " G ",
-        //         "G G",
-        //         " C "
-        //     )
-        // ),
+        Map.entry(
+            "bulb",
+            List.of(
+                " G ",
+                "G G",
+                " C "
+            )
+        ),
         Map.entry(
             "diamond",
             List.of(
@@ -51,14 +51,14 @@ public class ModRecipeProvider extends RecipeProvider{
                 " G "
             )
         ),
-        // Map.entry(
-        //     "duo",
-        //     List.of(
-        //         " GC",
-        //         "G G",
-        //         " G "
-        //     )
-        // ),
+        Map.entry(
+            "duo",
+            List.of(
+                " GC",
+                "G G",
+                " G "
+            )
+        ),
         Map.entry(
             "dusty",
             List.of(
@@ -91,14 +91,14 @@ public class ModRecipeProvider extends RecipeProvider{
                 "GGG"
             )
         ),
-        // Map.entry(
-        //     "kit",
-        //     List.of(
-        //         " G ",
-        //         "GCG",
-        //         " G "
-        //     )
-        // ),
+        Map.entry(
+            "kit",
+            List.of(
+                " G ",
+                "GCG",
+                " G "
+            )
+        ),
         Map.entry(
             "star",
             List.of(

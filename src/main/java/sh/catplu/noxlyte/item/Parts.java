@@ -9,14 +9,14 @@ public final class Parts {
     private Parts() {}
 
     public static final List<String> SHAPES = List.of(
-        //"bulb",
+        "bulb",
         "diamond",
-        //"duo",
+        "duo",
         "dusty",
         "heart",
         "holy",
         "jar",
-        //"kit",
+        "kit",
         "star",
         "vanilla",
         "vial"

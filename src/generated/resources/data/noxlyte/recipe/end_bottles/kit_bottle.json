@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_bottles",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "noxlyte:end_dust"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GCG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "noxlyte:kit_end_bottle"
+  }
+}

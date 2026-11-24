@@ -1,0 +1,26 @@
+{
+  "type": "noxlyte:color",
+  "category": "misc",
+  "group": "noxlyte_upgrade_bottle",
+  "key": {
+    "U": {
+      "item": "noxlyte:duo_glass_bottle"
+    },
+    "X": {
+      "item": "noxlyte:scintilla"
+    }
+  },
+  "pattern": [
+    "X",
+    "U"
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 9,
+      "noxlyte:bottle_material": "glass",
+      "noxlyte:bottle_style": "duo"
+    },
+    "count": 1,
+    "id": "noxlyte:scintilla"
+  }
+}

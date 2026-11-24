@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "glass_bottles",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "noxlyte:glass_dust"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GCG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "noxlyte:kit_glass_bottle"
+  }
+}

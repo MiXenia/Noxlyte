@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crystal_bottles",
+  "key": {
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "noxlyte:crystal_dust"
+    }
+  },
+  "pattern": [
+    " G ",
+    "G G",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "noxlyte:bulb_crystal_bottle"
+  }
+}

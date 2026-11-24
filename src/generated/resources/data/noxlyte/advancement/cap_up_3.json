@@ -34,8 +34,12 @@
   ],
   "rewards": {
     "recipes": [
+      "noxlyte:crystal_bottles/bulb_bottle",
+      "noxlyte:upgrade/bottle/crystal/bulb",
       "noxlyte:crystal_bottles/diamond_bottle",
       "noxlyte:upgrade/bottle/crystal/diamond",
+      "noxlyte:crystal_bottles/duo_bottle",
+      "noxlyte:upgrade/bottle/crystal/duo",
       "noxlyte:crystal_bottles/dusty_bottle",
       "noxlyte:upgrade/bottle/crystal/dusty",
       "noxlyte:crystal_bottles/heart_bottle",
@@ -44,6 +48,8 @@
       "noxlyte:upgrade/bottle/crystal/holy",
       "noxlyte:crystal_bottles/jar_bottle",
       "noxlyte:upgrade/bottle/crystal/jar",
+      "noxlyte:crystal_bottles/kit_bottle",
+      "noxlyte:upgrade/bottle/crystal/kit",
       "noxlyte:crystal_bottles/star_bottle",
       "noxlyte:upgrade/bottle/crystal/star",
       "noxlyte:crystal_bottles/vanilla_bottle",
